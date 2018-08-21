@@ -6,8 +6,6 @@ import router from './router'
 import global from './global'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-import VueResource from 'vue-resource'
-import config from "./global/config.js";
 window.$ = require('jquery')
 import '../static/UE/ueditor.config.js'
 import '../static/UE/ueditor.all.js'
@@ -16,9 +14,10 @@ import '../static/UE/ueditor.parse.min.js'
 var etpl = require('etpl');
 Vue.config.productionTip = false
 Vue.mixin(global)
-Vue.use(VueResource)
 Vue.use(ElementUI)
+import { emoji } from './utils/emoji.js'
 
+Vue.prototype.emoji = emoji
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

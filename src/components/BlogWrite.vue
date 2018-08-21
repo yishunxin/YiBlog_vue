@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="left" tabindex="0" @keyup.38="bookUpdown('up')" @keyup.40="bookUpdown('down')">
+    <div class="left" tabindex="0" @keyup.38="bookUpdown('up')" @keyup.40="bookUpdown('down')" @keyup.46="bookDeleteDialog()">
       <div class="back">
         <el-button class="back_btn" @click="goMain">返回首页</el-button>
       </div>
@@ -24,15 +24,29 @@
       </div>
       <div v-for="book in bookList">
         <li class="book_item" :class="{book_item_active:book.book_id==curBook.book_id}" title="book.name"
-          @click="activeBook(book)" ><span>{{ book.name }}</span></li>
+            @click="activeBook(book)" ><span>{{ book.name }}</span>
+          <el-dropdown trigger="click">
+            <span class="iconfont">&#xe78e;</span>
+            <el-dropdown-menu slot="dropdown">
+              <el-dropdown-item><span @click="bookDeleteDialog(book.book_id)"><span class="iconfont">&#xe62c;</span>修改文集</span></el-dropdown-item>
+              <el-dropdown-item><span @click="bookDeleteDialog(book.book_id)"><span class="iconfont">&#xe602;</span>删除文集</span></el-dropdown-item>
+            </el-dropdown-menu>
+          </el-dropdown></li>
       </div>
     </div>
 
-    <div class="middle" tabindex="0" @keyup.38="paperUpdown('up')" @keyup.40="paperUpdown('down')">
+    <div class="middle" tabindex="0" @keyup.38="paperUpdown('up')" @keyup.40="paperUpdown('down')" @keyup.46="paperDeleteDialog()">
       <div class="new_paper" @click="newPaper"><i class="el-icon-circle-plus"></i><span> 新建文章</span></div>
       <div class="paper_list" v-for="paper in paperList">
         <li class="paper_item" :class="{paper_item_active:paper.paper_id==curPaper.paper_id}" title="paper.title"
             @click="activePaper(paper)"><span>{{paper.title}}</span>
+          <el-dropdown trigger="click">
+            <span class="iconfont">&#xe78e;</span>
+            <el-dropdown-menu slot="dropdown">
+              <el-dropdown-item><span @click="paperDeleteDialog(paper.paper_id)"><span class="iconfont">&#xe62c;</span>修改文章</span></el-dropdown-item>
+              <el-dropdown-item><span @click="paperDeleteDialog(paper.paper_id)"><span class="iconfont">&#xe602;</span>删除文章</span></el-dropdown-item>
+            </el-dropdown-menu>
+          </el-dropdown>
         </li>
       </div>
     </div>
@@ -64,7 +78,7 @@
 </template>
 <script>
   export default{
-    data: function () {
+data: function () {
       return {
         editorHeight:800,
         editor: null,
@@ -107,25 +121,67 @@
       }
     },
     methods: {
-      bookDeleteDialog:function (book_id) {
-        this.$confirm('删除该笔记本, 是否继续?', '提示', {
+      bookDeleteDialog:function (p_book_id) {
+        var that = this
+        if (p_book_id==undefined){
+          var book_id = this.curBook.book_id
+        }else {
+            var book_id = p_book_id
+        }
+        that.$confirm('删除该笔记本, 是否继续?', '提示', {
           confirmButtonText: '确定',
           cancelButtonText: '取消',
           type: 'warning'
         }).then(() => {
-          this.$message({
-            type: 'success',
-            message: '删除成功!'
-          });
+          this.httpGet('/book/delete',{book_id:book_id}).then(function () {
+              that.$message({
+                type: 'success',
+                message: '删除成功!'
+              });
+            that.getBookList()
+        })
         }).catch(() => {
-          this.$message({
+          that.$message({
+            type: 'info',
+            message: '已取消删除'
+          });
+        });
+      },
+      paperDeleteDialog:function (p_paper_id) {
+        var that = this
+        if(p_paper_id==undefined){
+          var paper_id = this.curPaper.paper_id
+        }else{
+          var paper_id = p_paper_id
+        }
+        that.$confirm('删除该文章, 是否继续?', '提示', {
+          confirmButtonText: '确定',
+          cancelButtonText: '取消',
+          type: 'warning'
+        }).then(() => {
+          this.httpGet('/paper/delete',{paper_id:paper_id}).then(function () {
+              that.$message({
+                type: 'success',
+                message: '删除成功!'
+              });
+            that.getPaperList(that.curBook.book_id)
+        })
+        }).catch(() => {
+          that.$message({
             type: 'info',
             message: '已取消删除'
           });
         });
       },
       bookDelete:function (book_id) {
-        this.httpGet()
+        this.httpGet('/book/delete',book_id).then(function () {
+          this.getBookList()
+        })
+      },
+      paperDelete:function (paper_id) {
+        this.httpGet('/paper/delete',paper_id).then(function () {
+          this.getPaperList(this.curBook.book_id)
+        })
       },
       bookUpdown:function (param) {
         console.log(param)
@@ -312,6 +368,8 @@
     -webkit-transition: padding .2s;
     -o-transition: padding .2s;
     transition: padding .2s;
+    display: flex;
+    justify-content: space-between;
   }
 
   .book_item_active {
@@ -372,6 +430,8 @@
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    display: flex;
+    justify-content: space-between;
   }
 
   .paper_item_active {
@@ -423,5 +483,4 @@
     height:100%;
     overflow-y: hidden;
   }
-
 </style>

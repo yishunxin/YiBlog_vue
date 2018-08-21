@@ -20,11 +20,11 @@
             <img :src="item" style="width: 100%;height: 100%">
           </el-carousel-item>
         </el-carousel>
-        <el-menu class="el-menu-demo menunavibar" mode="horizontal" @select="" router>
-          <el-menu-item index="1" class="menu_item">首页</el-menu-item>
-          <el-menu-item index="2" route="/main/blogs" class="menu_item">技术仓库</el-menu-item>
+        <el-menu class="el-menu-demo menunavibar" mode="horizontal" router>
+          <el-menu-item index="/main/home" class="menu_item">首页</el-menu-item>
+          <el-menu-item index="/main/blogs"  class="menu_item">技术仓库</el-menu-item>
           <el-menu-item index="3" class="menu_item">个人随笔</el-menu-item>
-          <el-menu-item index="4" class="menu_item">相册</el-menu-item>
+          <el-menu-item index="/main/albums" class="menu_item">相册</el-menu-item>
         </el-menu>
         <div class="">
           <router-view></router-view>
@@ -37,9 +37,7 @@
 </template>
 
 <script>
-  import ElContainer from "../../node_modules/element-ui/packages/container/src/main";
   export default {
-    components: {ElContainer},
     name: 'HelloWorld',
     data () {
       return {
@@ -47,10 +45,19 @@
         msg: 'Welcome to Your Vue.js App'
       }
     },
+    created: function () {
+      this.getConfig()
+    },
     methods: {
       goWrite: function () {
         this.$router.push('/blogwrite')
-
+      },
+      getConfig: function () {
+        var that = this
+        that.httpGet('/config/get').then(function (data) {
+          var configs = data.configs
+          localStorage.setItem('file_pre', configs.file_pre)
+        })
       }
     }
   }
@@ -72,11 +79,15 @@
   .container {
     width: 100%;
     background-color: #f6f6f6;
+    height: 100%;
+    overflow: hidden;
   }
 
   .main {
     display: flex;
     justify-content: center;
+    overflow-y: scroll;
+    height: 100%;
   }
 
   .header {

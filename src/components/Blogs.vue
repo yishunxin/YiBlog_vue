@@ -27,7 +27,6 @@
 </template>
 <script>
   import blogItem from './blogItem.vue'
-
   export default{
     components: {blogItem},
     data: function () {

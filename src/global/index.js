@@ -2,7 +2,7 @@
  * Created by yishunxin on 2018/7/4.
  */
 import config from './config'
-
+import axios from 'axios'
 export default {
   methods: {
     getUrl: function (path) {
@@ -20,12 +20,12 @@ export default {
       var that = this
       var url = this.getUrl(path)
       return new Promise(function (resolve, reject) {
-        that.$http.get(url + "?token=" + localStorage.getItem('user_token'), {
+        axios.get(url + "?token=" + localStorage.getItem('user_token'), {
           params: params
-        }, true).then(function (response) {
-          var res = response.body
+        }).then(function (response) {
+          var res = response.data
           if (res.code == 0) {
-            resolve(response.body)
+            resolve(response.data)
           } else if (res.code == 1005) {
             that.$router.push({
               path: '/login'
@@ -52,14 +52,14 @@ export default {
         })
       })
     },
-    httpPost: function (path, body, option) {
+    httpPost: function (path, body, option = {emulateJSON: true}) {
       var url = this.getUrl(path)
       var that = this
       return new Promise(function (resolve, reject) {
-        that.$http.post(url + "?token=" + localStorage.getItem('user_token'), body, option).then(function (response) {
-          var res = response.body
+        axios.post(url + "?token=" + localStorage.getItem('user_token'), body, option).then(function (response) {
+          var res = response.data
           if (res.code == 0) {
-            resolve(response.body)
+            resolve(response.data)
           } else if (res.code == 1005) {
             that.$router.push({
               path: '/login'

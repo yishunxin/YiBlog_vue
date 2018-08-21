@@ -1,0 +1,2671 @@
+[class*="sprite-"] {
+  width: 25px;
+  height: 25px;
+  background: url('http://ovshyp9zv.bkt.clouddn.com/vue-emoji.png');
+  background-repeat: no-repeat;
+  vertical-align: top;
+  display: inline-block;
+  margin: 5px;
+  background-size: 882.8125px 867.1875px;
+}
+.sprite-a {
+  background-position: -1.95313px -1.95313px;
+}
+.sprite-a-100 {
+  background-position: -30.85938px -1.95313px;
+}
+.sprite-a-1234 {
+  background-position: -59.76563px -1.95313px;
+}
+.sprite-a-8ball {
+  background-position: -88.67188px -1.95313px;
+}
+.sprite-ab {
+  background-position: -117.57813px -1.95313px;
+}
+.sprite-abc {
+  background-position: -146.48438px -1.95313px;
+}
+.sprite-abcd {
+  background-position: -175.39063px -1.95313px;
+}
+.sprite-accept {
+  background-position: -204.29688px -1.95313px;
+}
+.sprite-aerial_tramway {
+  background-position: -233.20313px -1.95313px;
+}
+.sprite-agree {
+  background-position: -262.10938px -1.95313px;
+}
+.sprite-airplane {
+  background-position: -291.01563px -1.95313px;
+}
+.sprite-alarm_clock {
+  background-position: -319.92188px -1.95313px;
+}
+.sprite-alien {
+  background-position: -348.82813px -1.95313px;
+}
+.sprite-ambulance {
+  background-position: -377.73438px -1.95313px;
+}
+.sprite-anchor {
+  background-position: -406.64063px -1.95313px;
+}
+.sprite-angel {
+  background-position: -435.54688px -1.95313px;
+}
+.sprite-anger {
+  background-position: -464.45313px -1.95313px;
+}
+.sprite-angry {
+  background-position: -493.35938px -1.95313px;
+}
+.sprite-anguished {
+  background-position: -522.26563px -1.95313px;
+}
+.sprite-ant {
+  background-position: -551.17188px -1.95313px;
+}
+.sprite-apple {
+  background-position: -580.07813px -1.95313px;
+}
+.sprite-aquarius {
+  background-position: -608.98438px -1.95313px;
+}
+.sprite-aries {
+  background-position: -637.89063px -1.95313px;
+}
+.sprite-arrow_backward {
+  background-position: -666.79688px -1.95313px;
+}
+.sprite-arrow_double_down {
+  background-position: -695.70313px -1.95313px;
+}
+.sprite-arrow_double_up {
+  background-position: -724.60938px -1.95313px;
+}
+.sprite-arrow_down {
+  background-position: -753.51563px -1.95313px;
+}
+.sprite-arrow_down_small {
+  background-position: -782.42188px -1.95313px;
+}
+.sprite-arrow_forward {
+  background-position: -811.32813px -1.95313px;
+}
+.sprite-arrow_heading_down {
+  background-position: -1.95313px -30.85938px;
+}
+.sprite-arrow_heading_up {
+  background-position: -30.85938px -30.85938px;
+}
+.sprite-arrow_left {
+  background-position: -59.76563px -30.85938px;
+}
+.sprite-arrow_lower_left {
+  background-position: -88.67188px -30.85938px;
+}
+.sprite-arrow_lower_right {
+  background-position: -117.57813px -30.85938px;
+}
+.sprite-arrow_right {
+  background-position: -146.48438px -30.85938px;
+}
+.sprite-arrow_right_hook {
+  background-position: -175.39063px -30.85938px;
+}
+.sprite-arrow_up {
+  background-position: -204.29688px -30.85938px;
+}
+.sprite-arrow_up_down {
+  background-position: -233.20313px -30.85938px;
+}
+.sprite-arrow_up_small {
+  background-position: -262.10938px -30.85938px;
+}
+.sprite-arrow_upper_left {
+  background-position: -291.01563px -30.85938px;
+}
+.sprite-arrow_upper_right {
+  background-position: -319.92188px -30.85938px;
+}
+.sprite-arrows_clockwise {
+  background-position: -348.82813px -30.85938px;
+}
+.sprite-arrows_counterclockwise {
+  background-position: -377.73438px -30.85938px;
+}
+.sprite-art {
+  background-position: -406.64063px -30.85938px;
+}
+.sprite-articulated_lorry {
+  background-position: -435.54688px -30.85938px;
+}
+.sprite-astonished {
+  background-position: -464.45313px -30.85938px;
+}
+.sprite-atm {
+  background-position: -493.35938px -30.85938px;
+}
+.sprite-b {
+  background-position: -522.26563px -30.85938px;
+}
+.sprite-baby {
+  background-position: -551.17188px -30.85938px;
+}
+.sprite-baby_bottle {
+  background-position: -580.07813px -30.85938px;
+}
+.sprite-baby_chick {
+  background-position: -608.98438px -30.85938px;
+}
+.sprite-baby_symbol {
+  background-position: -637.89063px -30.85938px;
+}
+.sprite-back {
+  background-position: -666.79688px -30.85938px;
+}
+.sprite-baggage_claim {
+  background-position: -695.70313px -30.85938px;
+}
+.sprite-balloon {
+  background-position: -724.60938px -30.85938px;
+}
+.sprite-ballot_box_with_check {
+  background-position: -753.51563px -30.85938px;
+}
+.sprite-bamboo {
+  background-position: -782.42188px -30.85938px;
+}
+.sprite-banana {
+  background-position: -811.32813px -30.85938px;
+}
+.sprite-bangbang {
+  background-position: -1.95313px -59.76563px;
+}
+.sprite-bank {
+  background-position: -30.85938px -59.76563px;
+}
+.sprite-bar_chart {
+  background-position: -59.76563px -59.76563px;
+}
+.sprite-barber {
+  background-position: -88.67188px -59.76563px;
+}
+.sprite-baseball {
+  background-position: -117.57813px -59.76563px;
+}
+.sprite-basketball {
+  background-position: -146.48438px -59.76563px;
+}
+.sprite-bath {
+  background-position: -175.39063px -59.76563px;
+}
+.sprite-bathtub {
+  background-position: -204.29688px -59.76563px;
+}
+.sprite-battery {
+  background-position: -233.20313px -59.76563px;
+}
+.sprite-bear {
+  background-position: -262.10938px -59.76563px;
+}
+.sprite-bee {
+  background-position: -291.01563px -59.76563px;
+}
+.sprite-beer {
+  background-position: -319.92188px -59.76563px;
+}
+.sprite-beers {
+  background-position: -348.82813px -59.76563px;
+}
+.sprite-beetle {
+  background-position: -377.73438px -59.76563px;
+}
+.sprite-beginner {
+  background-position: -406.64063px -59.76563px;
+}
+.sprite-bell {
+  background-position: -435.54688px -59.76563px;
+}
+.sprite-bento {
+  background-position: -464.45313px -59.76563px;
+}
+.sprite-bicyclist {
+  background-position: -493.35938px -59.76563px;
+}
+.sprite-bike {
+  background-position: -522.26563px -59.76563px;
+}
+.sprite-bikini {
+  background-position: -551.17188px -59.76563px;
+}
+.sprite-bird {
+  background-position: -580.07813px -59.76563px;
+}
+.sprite-birthday {
+  background-position: -608.98438px -59.76563px;
+}
+.sprite-black_circle {
+  background-position: -637.89063px -59.76563px;
+}
+.sprite-black_joker {
+  background-position: -666.79688px -59.76563px;
+}
+.sprite-black_medium_small_square {
+  background-position: -695.70313px -59.76563px;
+}
+.sprite-black_medium_square {
+  background-position: -724.60938px -59.76563px;
+}
+.sprite-black_nib {
+  background-position: -753.51563px -59.76563px;
+}
+.sprite-black_small_square {
+  background-position: -782.42188px -59.76563px;
+}
+.sprite-black_square {
+  background-position: -811.32813px -59.76563px;
+}
+.sprite-black_square_button {
+  background-position: -1.95313px -88.67188px;
+}
+.sprite-blossom {
+  background-position: -30.85938px -88.67188px;
+}
+.sprite-blowfish {
+  background-position: -59.76563px -88.67188px;
+}
+.sprite-blue_book {
+  background-position: -88.67188px -88.67188px;
+}
+.sprite-blue_car {
+  background-position: -117.57813px -88.67188px;
+}
+.sprite-blue_heart {
+  background-position: -146.48438px -88.67188px;
+}
+.sprite-blush {
+  background-position: -175.39063px -88.67188px;
+}
+.sprite-boar {
+  background-position: -204.29688px -88.67188px;
+}
+.sprite-boat {
+  background-position: -233.20313px -88.67188px;
+}
+.sprite-bomb {
+  background-position: -262.10938px -88.67188px;
+}
+.sprite-book {
+  background-position: -291.01563px -88.67188px;
+}
+.sprite-bookmark {
+  background-position: -319.92188px -88.67188px;
+}
+.sprite-bookmark_tabs {
+  background-position: -348.82813px -88.67188px;
+}
+.sprite-books {
+  background-position: -377.73438px -88.67188px;
+}
+.sprite-boom {
+  background-position: -406.64063px -88.67188px;
+}
+.sprite-boot {
+  background-position: -435.54688px -88.67188px;
+}
+.sprite-bouquet {
+  background-position: -464.45313px -88.67188px;
+}
+.sprite-bow {
+  background-position: -493.35938px -88.67188px;
+}
+.sprite-bowling {
+  background-position: -522.26563px -88.67188px;
+}
+.sprite-bowtie {
+  background-position: -551.17188px -88.67188px;
+}
+.sprite-boy {
+  background-position: -580.07813px -88.67188px;
+}
+.sprite-bread {
+  background-position: -608.98438px -88.67188px;
+}
+.sprite-bride_with_veil {
+  background-position: -637.89063px -88.67188px;
+}
+.sprite-bridge_at_night {
+  background-position: -666.79688px -88.67188px;
+}
+.sprite-briefcase {
+  background-position: -695.70313px -88.67188px;
+}
+.sprite-broken_heart {
+  background-position: -724.60938px -88.67188px;
+}
+.sprite-bug {
+  background-position: -753.51563px -88.67188px;
+}
+.sprite-bulb {
+  background-position: -782.42188px -88.67188px;
+}
+.sprite-bullettrain_front {
+  background-position: -811.32813px -88.67188px;
+}
+.sprite-bullettrain_side {
+  background-position: -1.95313px -117.57813px;
+}
+.sprite-bus {
+  background-position: -30.85938px -117.57813px;
+}
+.sprite-busstop {
+  background-position: -59.76563px -117.57813px;
+}
+.sprite-bust_in_silhouette {
+  background-position: -88.67188px -117.57813px;
+}
+.sprite-busts_in_silhouette {
+  background-position: -117.57813px -117.57813px;
+}
+.sprite-cactus {
+  background-position: -146.48438px -117.57813px;
+}
+.sprite-cake {
+  background-position: -175.39063px -117.57813px;
+}
+.sprite-calendar {
+  background-position: -204.29688px -117.57813px;
+}
+.sprite-calling {
+  background-position: -233.20313px -117.57813px;
+}
+.sprite-camel {
+  background-position: -262.10938px -117.57813px;
+}
+.sprite-camera {
+  background-position: -291.01563px -117.57813px;
+}
+.sprite-cancer {
+  background-position: -319.92188px -117.57813px;
+}
+.sprite-candy {
+  background-position: -348.82813px -117.57813px;
+}
+.sprite-capital_abcd {
+  background-position: -377.73438px -117.57813px;
+}
+.sprite-capricorn {
+  background-position: -406.64063px -117.57813px;
+}
+.sprite-car {
+  background-position: -435.54688px -117.57813px;
+}
+.sprite-card_index {
+  background-position: -464.45313px -117.57813px;
+}
+.sprite-carousel_horse {
+  background-position: -493.35938px -117.57813px;
+}
+.sprite-cat {
+  background-position: -522.26563px -117.57813px;
+}
+.sprite-cat2 {
+  background-position: -551.17188px -117.57813px;
+}
+.sprite-cd {
+  background-position: -580.07813px -117.57813px;
+}
+.sprite-chart {
+  background-position: -608.98438px -117.57813px;
+}
+.sprite-chart_with_downwards_trend {
+  background-position: -637.89063px -117.57813px;
+}
+.sprite-chart_with_upwards_trend {
+  background-position: -666.79688px -117.57813px;
+}
+.sprite-checkered_flag {
+  background-position: -695.70313px -117.57813px;
+}
+.sprite-cherries {
+  background-position: -724.60938px -117.57813px;
+}
+.sprite-cherry_blossom {
+  background-position: -753.51563px -117.57813px;
+}
+.sprite-chestnut {
+  background-position: -782.42188px -117.57813px;
+}
+.sprite-chicken {
+  background-position: -811.32813px -117.57813px;
+}
+.sprite-children_crossing {
+  background-position: -1.95313px -146.48438px;
+}
+.sprite-chocolate_bar {
+  background-position: -30.85938px -146.48438px;
+}
+.sprite-christmas_tree {
+  background-position: -59.76563px -146.48438px;
+}
+.sprite-church {
+  background-position: -88.67188px -146.48438px;
+}
+.sprite-cinema {
+  background-position: -117.57813px -146.48438px;
+}
+.sprite-circus_tent {
+  background-position: -146.48438px -146.48438px;
+}
+.sprite-city_sunrise {
+  background-position: -175.39063px -146.48438px;
+}
+.sprite-city_sunset {
+  background-position: -204.29688px -146.48438px;
+}
+.sprite-cl {
+  background-position: -233.20313px -146.48438px;
+}
+.sprite-clap {
+  background-position: -262.10938px -146.48438px;
+}
+.sprite-clapper {
+  background-position: -291.01563px -146.48438px;
+}
+.sprite-clipboard {
+  background-position: -319.92188px -146.48438px;
+}
+.sprite-clock1 {
+  background-position: -348.82813px -146.48438px;
+}
+.sprite-clock10 {
+  background-position: -377.73438px -146.48438px;
+}
+.sprite-clock1030 {
+  background-position: -406.64063px -146.48438px;
+}
+.sprite-clock11 {
+  background-position: -435.54688px -146.48438px;
+}
+.sprite-clock1130 {
+  background-position: -464.45313px -146.48438px;
+}
+.sprite-clock12 {
+  background-position: -493.35938px -146.48438px;
+}
+.sprite-clock1230 {
+  background-position: -522.26563px -146.48438px;
+}
+.sprite-clock130 {
+  background-position: -551.17188px -146.48438px;
+}
+.sprite-clock2 {
+  background-position: -580.07813px -146.48438px;
+}
+.sprite-clock230 {
+  background-position: -608.98438px -146.48438px;
+}
+.sprite-clock3 {
+  background-position: -637.89063px -146.48438px;
+}
+.sprite-clock330 {
+  background-position: -666.79688px -146.48438px;
+}
+.sprite-clock4 {
+  background-position: -695.70313px -146.48438px;
+}
+.sprite-clock430 {
+  background-position: -724.60938px -146.48438px;
+}
+.sprite-clock5 {
+  background-position: -753.51563px -146.48438px;
+}
+.sprite-clock530 {
+  background-position: -782.42188px -146.48438px;
+}
+.sprite-clock6 {
+  background-position: -811.32813px -146.48438px;
+}
+.sprite-clock630 {
+  background-position: -1.95313px -175.39063px;
+}
+.sprite-clock7 {
+  background-position: -30.85938px -175.39063px;
+}
+.sprite-clock730 {
+  background-position: -59.76563px -175.39063px;
+}
+.sprite-clock8 {
+  background-position: -88.67188px -175.39063px;
+}
+.sprite-clock830 {
+  background-position: -117.57813px -175.39063px;
+}
+.sprite-clock9 {
+  background-position: -146.48438px -175.39063px;
+}
+.sprite-clock930 {
+  background-position: -175.39063px -175.39063px;
+}
+.sprite-closed_book {
+  background-position: -204.29688px -175.39063px;
+}
+.sprite-closed_lock_with_key {
+  background-position: -233.20313px -175.39063px;
+}
+.sprite-closed_umbrella {
+  background-position: -262.10938px -175.39063px;
+}
+.sprite-cloud {
+  background-position: -291.01563px -175.39063px;
+}
+.sprite-clubs {
+  background-position: -319.92188px -175.39063px;
+}
+.sprite-cn {
+  background-position: -348.82813px -175.39063px;
+}
+.sprite-cocktail {
+  background-position: -377.73438px -175.39063px;
+}
+.sprite-coffee {
+  background-position: -406.64063px -175.39063px;
+}
+.sprite-cold_sweat {
+  background-position: -435.54688px -175.39063px;
+}
+.sprite-collision {
+  background-position: -464.45313px -175.39063px;
+}
+.sprite-computer {
+  background-position: -493.35938px -175.39063px;
+}
+.sprite-confetti_ball {
+  background-position: -522.26563px -175.39063px;
+}
+.sprite-confounded {
+  background-position: -551.17188px -175.39063px;
+}
+.sprite-confused {
+  background-position: -580.07813px -175.39063px;
+}
+.sprite-congratulations {
+  background-position: -608.98438px -175.39063px;
+}
+.sprite-construction {
+  background-position: -637.89063px -175.39063px;
+}
+.sprite-construction_worker {
+  background-position: -666.79688px -175.39063px;
+}
+.sprite-convenience_store {
+  background-position: -695.70313px -175.39063px;
+}
+.sprite-cookie {
+  background-position: -724.60938px -175.39063px;
+}
+.sprite-cool {
+  background-position: -753.51563px -175.39063px;
+}
+.sprite-cop {
+  background-position: -782.42188px -175.39063px;
+}
+.sprite-copyright {
+  background-position: -811.32813px -175.39063px;
+}
+.sprite-corn {
+  background-position: -1.95313px -204.29688px;
+}
+.sprite-couple {
+  background-position: -30.85938px -204.29688px;
+}
+.sprite-couple_with_heart {
+  background-position: -59.76563px -204.29688px;
+}
+.sprite-couplekiss {
+  background-position: -88.67188px -204.29688px;
+}
+.sprite-cow {
+  background-position: -117.57813px -204.29688px;
+}
+.sprite-cow2 {
+  background-position: -146.48438px -204.29688px;
+}
+.sprite-credit_card {
+  background-position: -175.39063px -204.29688px;
+}
+.sprite-crescent_moon {
+  background-position: -204.29688px -204.29688px;
+}
+.sprite-crocodile {
+  background-position: -233.20313px -204.29688px;
+}
+.sprite-crossed_flags {
+  background-position: -262.10938px -204.29688px;
+}
+.sprite-crown {
+  background-position: -291.01563px -204.29688px;
+}
+.sprite-cry {
+  background-position: -319.92188px -204.29688px;
+}
+.sprite-crying_cat_face {
+  background-position: -348.82813px -204.29688px;
+}
+.sprite-crystal_ball {
+  background-position: -377.73438px -204.29688px;
+}
+.sprite-cupid {
+  background-position: -406.64063px -204.29688px;
+}
+.sprite-curly_loop {
+  background-position: -435.54688px -204.29688px;
+}
+.sprite-currency_exchange {
+  background-position: -464.45313px -204.29688px;
+}
+.sprite-curry {
+  background-position: -493.35938px -204.29688px;
+}
+.sprite-custard {
+  background-position: -522.26563px -204.29688px;
+}
+.sprite-customs {
+  background-position: -551.17188px -204.29688px;
+}
+.sprite-cyclone {
+  background-position: -580.07813px -204.29688px;
+}
+.sprite-dancer {
+  background-position: -608.98438px -204.29688px;
+}
+.sprite-dancers {
+  background-position: -637.89063px -204.29688px;
+}
+.sprite-dango {
+  background-position: -666.79688px -204.29688px;
+}
+.sprite-dart {
+  background-position: -695.70313px -204.29688px;
+}
+.sprite-dash {
+  background-position: -724.60938px -204.29688px;
+}
+.sprite-date {
+  background-position: -753.51563px -204.29688px;
+}
+.sprite-de {
+  background-position: -782.42188px -204.29688px;
+}
+.sprite-deciduous_tree {
+  background-position: -811.32813px -204.29688px;
+}
+.sprite-department_store {
+  background-position: -1.95313px -233.20313px;
+}
+.sprite-diamond_shape_with_a_dot_inside {
+  background-position: -30.85938px -233.20313px;
+}
+.sprite-diamonds {
+  background-position: -59.76563px -233.20313px;
+}
+.sprite-disappointed {
+  background-position: -88.67188px -233.20313px;
+}
+.sprite-disappointed_relieved {
+  background-position: -117.57813px -233.20313px;
+}
+.sprite-dizzy {
+  background-position: -146.48438px -233.20313px;
+}
+.sprite-dizzy_face {
+  background-position: -175.39063px -233.20313px;
+}
+.sprite-do_not_litter {
+  background-position: -204.29688px -233.20313px;
+}
+.sprite-dog {
+  background-position: -233.20313px -233.20313px;
+}
+.sprite-dog2 {
+  background-position: -262.10938px -233.20313px;
+}
+.sprite-dollar {
+  background-position: -291.01563px -233.20313px;
+}
+.sprite-dolls {
+  background-position: -319.92188px -233.20313px;
+}
+.sprite-dolphin {
+  background-position: -348.82813px -233.20313px;
+}
+.sprite-donut {
+  background-position: -377.73438px -233.20313px;
+}
+.sprite-door {
+  background-position: -406.64063px -233.20313px;
+}
+.sprite-doughnut {
+  background-position: -435.54688px -233.20313px;
+}
+.sprite-dragon {
+  background-position: -464.45313px -233.20313px;
+}
+.sprite-dragon_face {
+  background-position: -493.35938px -233.20313px;
+}
+.sprite-dress {
+  background-position: -522.26563px -233.20313px;
+}
+.sprite-dromedary_camel {
+  background-position: -551.17188px -233.20313px;
+}
+.sprite-droplet {
+  background-position: -580.07813px -233.20313px;
+}
+.sprite-dvd {
+  background-position: -608.98438px -233.20313px;
+}
+.sprite-e-mail {
+  background-position: -637.89063px -233.20313px;
+}
+.sprite-ear {
+  background-position: -666.79688px -233.20313px;
+}
+.sprite-ear_of_rice {
+  background-position: -695.70313px -233.20313px;
+}
+.sprite-earth_africa {
+  background-position: -724.60938px -233.20313px;
+}
+.sprite-earth_americas {
+  background-position: -753.51563px -233.20313px;
+}
+.sprite-earth_asia {
+  background-position: -782.42188px -233.20313px;
+}
+.sprite-egg {
+  background-position: -811.32813px -233.20313px;
+}
+.sprite-eggplant {
+  background-position: -1.95313px -262.10938px;
+}
+.sprite-eight {
+  background-position: -30.85938px -262.10938px;
+}
+.sprite-eight_pointed_black_star {
+  background-position: -59.76563px -262.10938px;
+}
+.sprite-eight_spoked_asterisk {
+  background-position: -88.67188px -262.10938px;
+}
+.sprite-electric_plug {
+  background-position: -117.57813px -262.10938px;
+}
+.sprite-elephant {
+  background-position: -146.48438px -262.10938px;
+}
+.sprite-email {
+  background-position: -175.39063px -262.10938px;
+}
+.sprite-end {
+  background-position: -204.29688px -262.10938px;
+}
+.sprite-envelope {
+  background-position: -233.20313px -262.10938px;
+}
+.sprite-es {
+  background-position: -262.10938px -262.10938px;
+}
+.sprite-euro {
+  background-position: -291.01563px -262.10938px;
+}
+.sprite-european_castle {
+  background-position: -319.92188px -262.10938px;
+}
+.sprite-european_post_office {
+  background-position: -348.82813px -262.10938px;
+}
+.sprite-evergreen_tree {
+  background-position: -377.73438px -262.10938px;
+}
+.sprite-exclamation {
+  background-position: -406.64063px -262.10938px;
+}
+.sprite-expressionless {
+  background-position: -435.54688px -262.10938px;
+}
+.sprite-eyeglasses {
+  background-position: -464.45313px -262.10938px;
+}
+.sprite-eyes {
+  background-position: -493.35938px -262.10938px;
+}
+.sprite-facepunch {
+  background-position: -522.26563px -262.10938px;
+}
+.sprite-factory {
+  background-position: -551.17188px -262.10938px;
+}
+.sprite-fallen_leaf {
+  background-position: -580.07813px -262.10938px;
+}
+.sprite-family {
+  background-position: -608.98438px -262.10938px;
+}
+.sprite-fast_forward {
+  background-position: -637.89063px -262.10938px;
+}
+.sprite-fax {
+  background-position: -666.79688px -262.10938px;
+}
+.sprite-fearful {
+  background-position: -695.70313px -262.10938px;
+}
+.sprite-feelsgood {
+  background-position: -724.60938px -262.10938px;
+}
+.sprite-feet {
+  background-position: -753.51563px -262.10938px;
+}
+.sprite-ferris_wheel {
+  background-position: -782.42188px -262.10938px;
+}
+.sprite-file_folder {
+  background-position: -811.32813px -262.10938px;
+}
+.sprite-finnadie {
+  background-position: -1.95313px -291.01563px;
+}
+.sprite-fire {
+  background-position: -30.85938px -291.01563px;
+}
+.sprite-fire_engine {
+  background-position: -59.76563px -291.01563px;
+}
+.sprite-fireworks {
+  background-position: -88.67188px -291.01563px;
+}
+.sprite-first_quarter_moon {
+  background-position: -117.57813px -291.01563px;
+}
+.sprite-first_quarter_moon_with_face {
+  background-position: -146.48438px -291.01563px;
+}
+.sprite-fish {
+  background-position: -175.39063px -291.01563px;
+}
+.sprite-fish_cake {
+  background-position: -204.29688px -291.01563px;
+}
+.sprite-fishing_pole_and_fish {
+  background-position: -233.20313px -291.01563px;
+}
+.sprite-fist {
+  background-position: -262.10938px -291.01563px;
+}
+.sprite-five {
+  background-position: -291.01563px -291.01563px;
+}
+.sprite-flags {
+  background-position: -319.92188px -291.01563px;
+}
+.sprite-flashlight {
+  background-position: -348.82813px -291.01563px;
+}
+.sprite-floppy_disk {
+  background-position: -377.73438px -291.01563px;
+}
+.sprite-flower_playing_cards {
+  background-position: -406.64063px -291.01563px;
+}
+.sprite-flushed {
+  background-position: -435.54688px -291.01563px;
+}
+.sprite-foggy {
+  background-position: -464.45313px -291.01563px;
+}
+.sprite-football {
+  background-position: -493.35938px -291.01563px;
+}
+.sprite-fork_and_knife {
+  background-position: -522.26563px -291.01563px;
+}
+.sprite-fountain {
+  background-position: -551.17188px -291.01563px;
+}
+.sprite-four {
+  background-position: -580.07813px -291.01563px;
+}
+.sprite-four_leaf_clover {
+  background-position: -608.98438px -291.01563px;
+}
+.sprite-fr {
+  background-position: -637.89063px -291.01563px;
+}
+.sprite-free {
+  background-position: -666.79688px -291.01563px;
+}
+.sprite-fried_shrimp {
+  background-position: -695.70313px -291.01563px;
+}
+.sprite-fries {
+  background-position: -724.60938px -291.01563px;
+}
+.sprite-frog {
+  background-position: -753.51563px -291.01563px;
+}
+.sprite-frowning {
+  background-position: -782.42188px -291.01563px;
+}
+.sprite-fu {
+  background-position: -811.32813px -291.01563px;
+}
+.sprite-fuelpump {
+  background-position: -1.95313px -319.92188px;
+}
+.sprite-full_moon {
+  background-position: -30.85938px -319.92188px;
+}
+.sprite-full_moon_with_face {
+  background-position: -59.76563px -319.92188px;
+}
+.sprite-game_die {
+  background-position: -88.67188px -319.92188px;
+}
+.sprite-gb {
+  background-position: -117.57813px -319.92188px;
+}
+.sprite-gem {
+  background-position: -146.48438px -319.92188px;
+}
+.sprite-gemini {
+  background-position: -175.39063px -319.92188px;
+}
+.sprite-ghost {
+  background-position: -204.29688px -319.92188px;
+}
+.sprite-gift {
+  background-position: -233.20313px -319.92188px;
+}
+.sprite-gift_heart {
+  background-position: -262.10938px -319.92188px;
+}
+.sprite-girl {
+  background-position: -291.01563px -319.92188px;
+}
+.sprite-github {
+  background-position: -840.23438px -1.95313px;
+}
+.sprite-globe_with_meridians {
+  background-position: -319.92188px -319.92188px;
+}
+.sprite-gmail {
+  background-position: -840.23438px -17.57813px;
+}
+.sprite-goat {
+  background-position: -348.82813px -319.92188px;
+}
+.sprite-goberserk {
+  background-position: -377.73438px -319.92188px;
+}
+.sprite-godmode {
+  background-position: -406.64063px -319.92188px;
+}
+.sprite-golf {
+  background-position: -435.54688px -319.92188px;
+}
+.sprite-grapes {
+  background-position: -464.45313px -319.92188px;
+}
+.sprite-green_apple {
+  background-position: -493.35938px -319.92188px;
+}
+.sprite-green_book {
+  background-position: -522.26563px -319.92188px;
+}
+.sprite-green_heart {
+  background-position: -551.17188px -319.92188px;
+}
+.sprite-grey_exclamation {
+  background-position: -580.07813px -319.92188px;
+}
+.sprite-grey_question {
+  background-position: -608.98438px -319.92188px;
+}
+.sprite-grimacing {
+  background-position: -637.89063px -319.92188px;
+}
+.sprite-grin {
+  background-position: -666.79688px -319.92188px;
+}
+.sprite-grinning {
+  background-position: -695.70313px -319.92188px;
+}
+.sprite-guardsman {
+  background-position: -724.60938px -319.92188px;
+}
+.sprite-guitar {
+  background-position: -753.51563px -319.92188px;
+}
+.sprite-gun {
+  background-position: -782.42188px -319.92188px;
+}
+.sprite-haircut {
+  background-position: -811.32813px -319.92188px;
+}
+.sprite-hamburger {
+  background-position: -1.95313px -348.82813px;
+}
+.sprite-hammer {
+  background-position: -30.85938px -348.82813px;
+}
+.sprite-hamster {
+  background-position: -59.76563px -348.82813px;
+}
+.sprite-hand {
+  background-position: -88.67188px -348.82813px;
+}
+.sprite-handbag {
+  background-position: -117.57813px -348.82813px;
+}
+.sprite-hankey {
+  background-position: -146.48438px -348.82813px;
+}
+.sprite-hash {
+  background-position: -175.39063px -348.82813px;
+}
+.sprite-hatched_chick {
+  background-position: -204.29688px -348.82813px;
+}
+.sprite-hatching_chick {
+  background-position: -233.20313px -348.82813px;
+}
+.sprite-headphones {
+  background-position: -262.10938px -348.82813px;
+}
+.sprite-hear_no_evil {
+  background-position: -291.01563px -348.82813px;
+}
+.sprite-heart {
+  background-position: -319.92188px -348.82813px;
+}
+.sprite-heart_decoration {
+  background-position: -348.82813px -348.82813px;
+}
+.sprite-heart_eyes {
+  background-position: -377.73438px -348.82813px;
+}
+.sprite-heart_eyes_cat {
+  background-position: -406.64063px -348.82813px;
+}
+.sprite-heartbeat {
+  background-position: -435.54688px -348.82813px;
+}
+.sprite-heartpulse {
+  background-position: -464.45313px -348.82813px;
+}
+.sprite-hearts {
+  background-position: -493.35938px -348.82813px;
+}
+.sprite-heavy_check_mark {
+  background-position: -522.26563px -348.82813px;
+}
+.sprite-heavy_division_sign {
+  background-position: -551.17188px -348.82813px;
+}
+.sprite-heavy_dollar_sign {
+  background-position: -580.07813px -348.82813px;
+}
+.sprite-heavy_exclamation_mark {
+  background-position: -608.98438px -348.82813px;
+}
+.sprite-heavy_minus_sign {
+  background-position: -637.89063px -348.82813px;
+}
+.sprite-heavy_multiplication_x {
+  background-position: -666.79688px -348.82813px;
+}
+.sprite-heavy_plus_sign {
+  background-position: -695.70313px -348.82813px;
+}
+.sprite-helicopter {
+  background-position: -724.60938px -348.82813px;
+}
+.sprite-herb {
+  background-position: -753.51563px -348.82813px;
+}
+.sprite-hibiscus {
+  background-position: -782.42188px -348.82813px;
+}
+.sprite-high_brightness {
+  background-position: -811.32813px -348.82813px;
+}
+.sprite-high_heel {
+  background-position: -1.95313px -377.73438px;
+}
+.sprite-hocho {
+  background-position: -30.85938px -377.73438px;
+}
+.sprite-honey_pot {
+  background-position: -59.76563px -377.73438px;
+}
+.sprite-honeybee {
+  background-position: -88.67188px -377.73438px;
+}
+.sprite-horse {
+  background-position: -117.57813px -377.73438px;
+}
+.sprite-horse_racing {
+  background-position: -146.48438px -377.73438px;
+}
+.sprite-hospital {
+  background-position: -175.39063px -377.73438px;
+}
+.sprite-hotel {
+  background-position: -204.29688px -377.73438px;
+}
+.sprite-hotsprings {
+  background-position: -233.20313px -377.73438px;
+}
+.sprite-hourglass {
+  background-position: -262.10938px -377.73438px;
+}
+.sprite-hourglass_flowing_sand {
+  background-position: -291.01563px -377.73438px;
+}
+.sprite-house {
+  background-position: -319.92188px -377.73438px;
+}
+.sprite-house_with_garden {
+  background-position: -348.82813px -377.73438px;
+}
+.sprite-hurtrealbad {
+  background-position: -377.73438px -377.73438px;
+}
+.sprite-hushed {
+  background-position: -406.64063px -377.73438px;
+}
+.sprite-ice_cream {
+  background-position: -435.54688px -377.73438px;
+}
+.sprite-icecream {
+  background-position: -464.45313px -377.73438px;
+}
+.sprite-id {
+  background-position: -493.35938px -377.73438px;
+}
+.sprite-ideograph_advantage {
+  background-position: -522.26563px -377.73438px;
+}
+.sprite-imp {
+  background-position: -551.17188px -377.73438px;
+}
+.sprite-inbox_tray {
+  background-position: -580.07813px -377.73438px;
+}
+.sprite-incoming_envelope {
+  background-position: -608.98438px -377.73438px;
+}
+.sprite-information_desk_person {
+  background-position: -637.89063px -377.73438px;
+}
+.sprite-information_source {
+  background-position: -666.79688px -377.73438px;
+}
+.sprite-innocent {
+  background-position: -695.70313px -377.73438px;
+}
+.sprite-interrobang {
+  background-position: -724.60938px -377.73438px;
+}
+.sprite-iphone {
+  background-position: -753.51563px -377.73438px;
+}
+.sprite-it {
+  background-position: -782.42188px -377.73438px;
+}
+.sprite-izakaya_lantern {
+  background-position: -811.32813px -377.73438px;
+}
+.sprite-jack_o_lantern {
+  background-position: -1.95313px -406.64063px;
+}
+.sprite-japan {
+  background-position: -30.85938px -406.64063px;
+}
+.sprite-japanese_castle {
+  background-position: -59.76563px -406.64063px;
+}
+.sprite-japanese_goblin {
+  background-position: -88.67188px -406.64063px;
+}
+.sprite-japanese_ogre {
+  background-position: -117.57813px -406.64063px;
+}
+.sprite-jeans {
+  background-position: -146.48438px -406.64063px;
+}
+.sprite-joy {
+  background-position: -175.39063px -406.64063px;
+}
+.sprite-joy_cat {
+  background-position: -204.29688px -406.64063px;
+}
+.sprite-jp {
+  background-position: -233.20313px -406.64063px;
+}
+.sprite-key {
+  background-position: -262.10938px -406.64063px;
+}
+.sprite-keycap_ten {
+  background-position: -291.01563px -406.64063px;
+}
+.sprite-kimono {
+  background-position: -319.92188px -406.64063px;
+}
+.sprite-kiss {
+  background-position: -348.82813px -406.64063px;
+}
+.sprite-kissing {
+  background-position: -377.73438px -406.64063px;
+}
+.sprite-kissing_cat {
+  background-position: -406.64063px -406.64063px;
+}
+.sprite-kissing_closed_eyes {
+  background-position: -435.54688px -406.64063px;
+}
+.sprite-kissing_face {
+  background-position: -464.45313px -406.64063px;
+}
+.sprite-kissing_heart {
+  background-position: -493.35938px -406.64063px;
+}
+.sprite-kissing_smiling_eyes {
+  background-position: -522.26563px -406.64063px;
+}
+.sprite-koala {
+  background-position: -551.17188px -406.64063px;
+}
+.sprite-koko {
+  background-position: -580.07813px -406.64063px;
+}
+.sprite-kr {
+  background-position: -608.98438px -406.64063px;
+}
+.sprite-large_blue_circle {
+  background-position: -637.89063px -406.64063px;
+}
+.sprite-large_blue_diamond {
+  background-position: -666.79688px -406.64063px;
+}
+.sprite-large_orange_diamond {
+  background-position: -695.70313px -406.64063px;
+}
+.sprite-last_quarter_moon {
+  background-position: -724.60938px -406.64063px;
+}
+.sprite-last_quarter_moon_with_face {
+  background-position: -753.51563px -406.64063px;
+}
+.sprite-laughing {
+  background-position: -782.42188px -406.64063px;
+}
+.sprite-leaves {
+  background-position: -811.32813px -406.64063px;
+}
+.sprite-ledger {
+  background-position: -1.95313px -435.54688px;
+}
+.sprite-left_luggage {
+  background-position: -30.85938px -435.54688px;
+}
+.sprite-left_right_arrow {
+  background-position: -59.76563px -435.54688px;
+}
+.sprite-leftwards_arrow_with_hook {
+  background-position: -88.67188px -435.54688px;
+}
+.sprite-lemon {
+  background-position: -117.57813px -435.54688px;
+}
+.sprite-leo {
+  background-position: -146.48438px -435.54688px;
+}
+.sprite-leopard {
+  background-position: -175.39063px -435.54688px;
+}
+.sprite-libra {
+  background-position: -204.29688px -435.54688px;
+}
+.sprite-light_rail {
+  background-position: -233.20313px -435.54688px;
+}
+.sprite-link {
+  background-position: -262.10938px -435.54688px;
+}
+.sprite-linkedin {
+  background-position: -840.23438px -33.20313px;
+}
+.sprite-lips {
+  background-position: -291.01563px -435.54688px;
+}
+.sprite-lipstick {
+  background-position: -319.92188px -435.54688px;
+}
+.sprite-lock {
+  background-position: -348.82813px -435.54688px;
+}
+.sprite-lock_with_ink_pen {
+  background-position: -377.73438px -435.54688px;
+}
+.sprite-lollipop {
+  background-position: -406.64063px -435.54688px;
+}
+.sprite-loop {
+  background-position: -435.54688px -435.54688px;
+}
+.sprite-loudspeaker {
+  background-position: -464.45313px -435.54688px;
+}
+.sprite-love_hotel {
+  background-position: -493.35938px -435.54688px;
+}
+.sprite-love_letter {
+  background-position: -522.26563px -435.54688px;
+}
+.sprite-low_brightness {
+  background-position: -551.17188px -435.54688px;
+}
+.sprite-m {
+  background-position: -580.07813px -435.54688px;
+}
+.sprite-mag {
+  background-position: -608.98438px -435.54688px;
+}
+.sprite-mag_right {
+  background-position: -637.89063px -435.54688px;
+}
+.sprite-mahjong {
+  background-position: -666.79688px -435.54688px;
+}
+.sprite-mailbox {
+  background-position: -695.70313px -435.54688px;
+}
+.sprite-mailbox_closed {
+  background-position: -724.60938px -435.54688px;
+}
+.sprite-mailbox_with_mail {
+  background-position: -753.51563px -435.54688px;
+}
+.sprite-mailbox_with_no_mail {
+  background-position: -782.42188px -435.54688px;
+}
+.sprite-man {
+  background-position: -811.32813px -435.54688px;
+}
+.sprite-man_with_gua_pi_mao {
+  background-position: -1.95313px -464.45313px;
+}
+.sprite-man_with_turban {
+  background-position: -30.85938px -464.45313px;
+}
+.sprite-mans_shoe {
+  background-position: -59.76563px -464.45313px;
+}
+.sprite-maple_leaf {
+  background-position: -88.67188px -464.45313px;
+}
+.sprite-mask {
+  background-position: -117.57813px -464.45313px;
+}
+.sprite-massage {
+  background-position: -146.48438px -464.45313px;
+}
+.sprite-meat_on_bone {
+  background-position: -175.39063px -464.45313px;
+}
+.sprite-mega {
+  background-position: -204.29688px -464.45313px;
+}
+.sprite-melon {
+  background-position: -233.20313px -464.45313px;
+}
+.sprite-memo {
+  background-position: -262.10938px -464.45313px;
+}
+.sprite-mens {
+  background-position: -291.01563px -464.45313px;
+}
+.sprite-metal {
+  background-position: -319.92188px -464.45313px;
+}
+.sprite-metro {
+  background-position: -348.82813px -464.45313px;
+}
+.sprite-microphone {
+  background-position: -377.73438px -464.45313px;
+}
+.sprite-microscope {
+  background-position: -406.64063px -464.45313px;
+}
+.sprite-milky_way {
+  background-position: -435.54688px -464.45313px;
+}
+.sprite-minibus {
+  background-position: -464.45313px -464.45313px;
+}
+.sprite-minidisc {
+  background-position: -493.35938px -464.45313px;
+}
+.sprite-mobile_phone_off {
+  background-position: -522.26563px -464.45313px;
+}
+.sprite-money_with_wings {
+  background-position: -551.17188px -464.45313px;
+}
+.sprite-moneybag {
+  background-position: -580.07813px -464.45313px;
+}
+.sprite-monkey {
+  background-position: -608.98438px -464.45313px;
+}
+.sprite-monkey_face {
+  background-position: -637.89063px -464.45313px;
+}
+.sprite-monorail {
+  background-position: -666.79688px -464.45313px;
+}
+.sprite-mortar_board {
+  background-position: -695.70313px -464.45313px;
+}
+.sprite-mount_fuji {
+  background-position: -724.60938px -464.45313px;
+}
+.sprite-mountain_bicyclist {
+  background-position: -753.51563px -464.45313px;
+}
+.sprite-mountain_cableway {
+  background-position: -782.42188px -464.45313px;
+}
+.sprite-mountain_railway {
+  background-position: -811.32813px -464.45313px;
+}
+.sprite-mouse {
+  background-position: -1.95313px -493.35938px;
+}
+.sprite-mouse2 {
+  background-position: -30.85938px -493.35938px;
+}
+.sprite-movie_camera {
+  background-position: -59.76563px -493.35938px;
+}
+.sprite-moyai {
+  background-position: -88.67188px -493.35938px;
+}
+.sprite-muscle {
+  background-position: -117.57813px -493.35938px;
+}
+.sprite-mushroom {
+  background-position: -146.48438px -493.35938px;
+}
+.sprite-musical_keyboard {
+  background-position: -175.39063px -493.35938px;
+}
+.sprite-musical_note {
+  background-position: -204.29688px -493.35938px;
+}
+.sprite-musical_score {
+  background-position: -233.20313px -493.35938px;
+}
+.sprite-mute {
+  background-position: -262.10938px -493.35938px;
+}
+.sprite-nail_care {
+  background-position: -291.01563px -493.35938px;
+}
+.sprite-name_badge {
+  background-position: -319.92188px -493.35938px;
+}
+.sprite-neckbeard {
+  background-position: -348.82813px -493.35938px;
+}
+.sprite-necktie {
+  background-position: -377.73438px -493.35938px;
+}
+.sprite-negative_squared_cross_mark {
+  background-position: -406.64063px -493.35938px;
+}
+.sprite-neutral_face {
+  background-position: -435.54688px -493.35938px;
+}
+.sprite-new {
+  background-position: -464.45313px -493.35938px;
+}
+.sprite-new_moon {
+  background-position: -493.35938px -493.35938px;
+}
+.sprite-new_moon_with_face {
+  background-position: -522.26563px -493.35938px;
+}
+.sprite-newspaper {
+  background-position: -551.17188px -493.35938px;
+}
+.sprite-ng {
+  background-position: -580.07813px -493.35938px;
+}
+.sprite-nine {
+  background-position: -608.98438px -493.35938px;
+}
+.sprite-no_bell {
+  background-position: -637.89063px -493.35938px;
+}
+.sprite-no_bicycles {
+  background-position: -666.79688px -493.35938px;
+}
+.sprite-no_entry {
+  background-position: -695.70313px -493.35938px;
+}
+.sprite-no_entry_sign {
+  background-position: -724.60938px -493.35938px;
+}
+.sprite-no_good {
+  background-position: -753.51563px -493.35938px;
+}
+.sprite-no_mobile_phones {
+  background-position: -782.42188px -493.35938px;
+}
+.sprite-no_mouth {
+  background-position: -811.32813px -493.35938px;
+}
+.sprite-no_pedestrians {
+  background-position: -1.95313px -522.26563px;
+}
+.sprite-no_smoking {
+  background-position: -30.85938px -522.26563px;
+}
+.sprite-non-potable_water {
+  background-position: -59.76563px -522.26563px;
+}
+.sprite-nose {
+  background-position: -88.67188px -522.26563px;
+}
+.sprite-notebook {
+  background-position: -117.57813px -522.26563px;
+}
+.sprite-notebook_with_decorative_cover {
+  background-position: -146.48438px -522.26563px;
+}
+.sprite-notes {
+  background-position: -175.39063px -522.26563px;
+}
+.sprite-nut_and_bolt {
+  background-position: -204.29688px -522.26563px;
+}
+.sprite-o {
+  background-position: -233.20313px -522.26563px;
+}
+.sprite-o2 {
+  background-position: -262.10938px -522.26563px;
+}
+.sprite-ocean {
+  background-position: -291.01563px -522.26563px;
+}
+.sprite-octocat {
+  background-position: -319.92188px -522.26563px;
+}
+.sprite-octopus {
+  background-position: -348.82813px -522.26563px;
+}
+.sprite-oden {
+  background-position: -377.73438px -522.26563px;
+}
+.sprite-office {
+  background-position: -406.64063px -522.26563px;
+}
+.sprite-ok {
+  background-position: -435.54688px -522.26563px;
+}
+.sprite-ok_hand {
+  background-position: -464.45313px -522.26563px;
+}
+.sprite-ok_woman {
+  background-position: -493.35938px -522.26563px;
+}
+.sprite-older_man {
+  background-position: -522.26563px -522.26563px;
+}
+.sprite-older_woman {
+  background-position: -551.17188px -522.26563px;
+}
+.sprite-on {
+  background-position: -580.07813px -522.26563px;
+}
+.sprite-oncoming_automobile {
+  background-position: -608.98438px -522.26563px;
+}
+.sprite-oncoming_bus {
+  background-position: -637.89063px -522.26563px;
+}
+.sprite-oncoming_police_car {
+  background-position: -666.79688px -522.26563px;
+}
+.sprite-oncoming_taxi {
+  background-position: -695.70313px -522.26563px;
+}
+.sprite-one {
+  background-position: -724.60938px -522.26563px;
+}
+.sprite-open_file_folder {
+  background-position: -753.51563px -522.26563px;
+}
+.sprite-open_hands {
+  background-position: -782.42188px -522.26563px;
+}
+.sprite-open_mouth {
+  background-position: -811.32813px -522.26563px;
+}
+.sprite-ophiuchus {
+  background-position: -1.95313px -551.17188px;
+}
+.sprite-orange_book {
+  background-position: -30.85938px -551.17188px;
+}
+.sprite-outbox_tray {
+  background-position: -59.76563px -551.17188px;
+}
+.sprite-ox {
+  background-position: -88.67188px -551.17188px;
+}
+.sprite-package {
+  background-position: -117.57813px -551.17188px;
+}
+.sprite-page_facing_up {
+  background-position: -146.48438px -551.17188px;
+}
+.sprite-page_with_curl {
+  background-position: -175.39063px -551.17188px;
+}
+.sprite-pager {
+  background-position: -204.29688px -551.17188px;
+}
+.sprite-palm_tree {
+  background-position: -233.20313px -551.17188px;
+}
+.sprite-panda_face {
+  background-position: -262.10938px -551.17188px;
+}
+.sprite-paperclip {
+  background-position: -291.01563px -551.17188px;
+}
+.sprite-parking {
+  background-position: -319.92188px -551.17188px;
+}
+.sprite-part_alternation_mark {
+  background-position: -348.82813px -551.17188px;
+}
+.sprite-partly_sunny {
+  background-position: -377.73438px -551.17188px;
+}
+.sprite-passport_control {
+  background-position: -406.64063px -551.17188px;
+}
+.sprite-paw_prints {
+  background-position: -435.54688px -551.17188px;
+}
+.sprite-peach {
+  background-position: -464.45313px -551.17188px;
+}
+.sprite-pear {
+  background-position: -493.35938px -551.17188px;
+}
+.sprite-pencil {
+  background-position: -522.26563px -551.17188px;
+}
+.sprite-pencil2 {
+  background-position: -551.17188px -551.17188px;
+}
+.sprite-penguin {
+  background-position: -580.07813px -551.17188px;
+}
+.sprite-pensive {
+  background-position: -608.98438px -551.17188px;
+}
+.sprite-performing_arts {
+  background-position: -637.89063px -551.17188px;
+}
+.sprite-persevere {
+  background-position: -666.79688px -551.17188px;
+}
+.sprite-person_frowning {
+  background-position: -695.70313px -551.17188px;
+}
+.sprite-person_with_blond_hair {
+  background-position: -724.60938px -551.17188px;
+}
+.sprite-person_with_pouting_face {
+  background-position: -753.51563px -551.17188px;
+}
+.sprite-phone {
+  background-position: -782.42188px -551.17188px;
+}
+.sprite-pig {
+  background-position: -811.32813px -551.17188px;
+}
+.sprite-pig2 {
+  background-position: -1.95313px -580.07813px;
+}
+.sprite-pig_nose {
+  background-position: -30.85938px -580.07813px;
+}
+.sprite-pill {
+  background-position: -59.76563px -580.07813px;
+}
+.sprite-pineapple {
+  background-position: -88.67188px -580.07813px;
+}
+.sprite-pisces {
+  background-position: -117.57813px -580.07813px;
+}
+.sprite-pizza {
+  background-position: -146.48438px -580.07813px;
+}
+.sprite-plus1 {
+  background-position: -175.39063px -580.07813px;
+}
+.sprite-point_down {
+  background-position: -204.29688px -580.07813px;
+}
+.sprite-point_left {
+  background-position: -233.20313px -580.07813px;
+}
+.sprite-point_right {
+  background-position: -262.10938px -580.07813px;
+}
+.sprite-point_up {
+  background-position: -291.01563px -580.07813px;
+}
+.sprite-point_up_2 {
+  background-position: -319.92188px -580.07813px;
+}
+.sprite-police_car {
+  background-position: -348.82813px -580.07813px;
+}
+.sprite-poodle {
+  background-position: -377.73438px -580.07813px;
+}
+.sprite-poop {
+  background-position: -406.64063px -580.07813px;
+}
+.sprite-post_office {
+  background-position: -435.54688px -580.07813px;
+}
+.sprite-postal_horn {
+  background-position: -464.45313px -580.07813px;
+}
+.sprite-postbox {
+  background-position: -493.35938px -580.07813px;
+}
+.sprite-potable_water {
+  background-position: -522.26563px -580.07813px;
+}
+.sprite-pouch {
+  background-position: -551.17188px -580.07813px;
+}
+.sprite-poultry_leg {
+  background-position: -580.07813px -580.07813px;
+}
+.sprite-pound {
+  background-position: -608.98438px -580.07813px;
+}
+.sprite-pouting_cat {
+  background-position: -637.89063px -580.07813px;
+}
+.sprite-pray {
+  background-position: -666.79688px -580.07813px;
+}
+.sprite-princess {
+  background-position: -695.70313px -580.07813px;
+}
+.sprite-punch {
+  background-position: -724.60938px -580.07813px;
+}
+.sprite-purple_heart {
+  background-position: -753.51563px -580.07813px;
+}
+.sprite-purse {
+  background-position: -782.42188px -580.07813px;
+}
+.sprite-pushpin {
+  background-position: -811.32813px -580.07813px;
+}
+.sprite-put_litter_in_its_place {
+  background-position: -1.95313px -608.98438px;
+}
+.sprite-question {
+  background-position: -30.85938px -608.98438px;
+}
+.sprite-rabbit {
+  background-position: -59.76563px -608.98438px;
+}
+.sprite-rabbit2 {
+  background-position: -88.67188px -608.98438px;
+}
+.sprite-racehorse {
+  background-position: -117.57813px -608.98438px;
+}
+.sprite-radio {
+  background-position: -146.48438px -608.98438px;
+}
+.sprite-radio_button {
+  background-position: -175.39063px -608.98438px;
+}
+.sprite-rage {
+  background-position: -204.29688px -608.98438px;
+}
+.sprite-rage1 {
+  background-position: -233.20313px -608.98438px;
+}
+.sprite-rage2 {
+  background-position: -262.10938px -608.98438px;
+}
+.sprite-rage3 {
+  background-position: -291.01563px -608.98438px;
+}
+.sprite-rage4 {
+  background-position: -319.92188px -608.98438px;
+}
+.sprite-railway_car {
+  background-position: -348.82813px -608.98438px;
+}
+.sprite-rainbow {
+  background-position: -377.73438px -608.98438px;
+}
+.sprite-raised_hand {
+  background-position: -406.64063px -608.98438px;
+}
+.sprite-raised_hands {
+  background-position: -435.54688px -608.98438px;
+}
+.sprite-raising_hand {
+  background-position: -464.45313px -608.98438px;
+}
+.sprite-ram {
+  background-position: -493.35938px -608.98438px;
+}
+.sprite-ramen {
+  background-position: -522.26563px -608.98438px;
+}
+.sprite-rat {
+  background-position: -551.17188px -608.98438px;
+}
+.sprite-recycle {
+  background-position: -580.07813px -608.98438px;
+}
+.sprite-red_car {
+  background-position: -608.98438px -608.98438px;
+}
+.sprite-red_circle {
+  background-position: -637.89063px -608.98438px;
+}
+.sprite-refuse {
+  background-position: -666.79688px -608.98438px;
+}
+.sprite-registered {
+  background-position: -695.70313px -608.98438px;
+}
+.sprite-relaxed {
+  background-position: -724.60938px -608.98438px;
+}
+.sprite-relieved {
+  background-position: -753.51563px -608.98438px;
+}
+.sprite-repeat {
+  background-position: -782.42188px -608.98438px;
+}
+.sprite-repeat_one {
+  background-position: -811.32813px -608.98438px;
+}
+.sprite-restroom {
+  background-position: -1.95313px -637.89063px;
+}
+.sprite-revolving_hearts {
+  background-position: -30.85938px -637.89063px;
+}
+.sprite-rewind {
+  background-position: -59.76563px -637.89063px;
+}
+.sprite-ribbon {
+  background-position: -88.67188px -637.89063px;
+}
+.sprite-rice {
+  background-position: -117.57813px -637.89063px;
+}
+.sprite-rice_ball {
+  background-position: -146.48438px -637.89063px;
+}
+.sprite-rice_cracker {
+  background-position: -175.39063px -637.89063px;
+}
+.sprite-rice_scene {
+  background-position: -204.29688px -637.89063px;
+}
+.sprite-ring {
+  background-position: -233.20313px -637.89063px;
+}
+.sprite-rocket {
+  background-position: -262.10938px -637.89063px;
+}
+.sprite-roller_coaster {
+  background-position: -291.01563px -637.89063px;
+}
+.sprite-rooster {
+  background-position: -319.92188px -637.89063px;
+}
+.sprite-rose {
+  background-position: -348.82813px -637.89063px;
+}
+.sprite-rotating_light {
+  background-position: -377.73438px -637.89063px;
+}
+.sprite-round_pushpin {
+  background-position: -406.64063px -637.89063px;
+}
+.sprite-rowboat {
+  background-position: -435.54688px -637.89063px;
+}
+.sprite-ru {
+  background-position: -464.45313px -637.89063px;
+}
+.sprite-rugby_football {
+  background-position: -493.35938px -637.89063px;
+}
+.sprite-runner {
+  background-position: -522.26563px -637.89063px;
+}
+.sprite-running {
+  background-position: -551.17188px -637.89063px;
+}
+.sprite-running_shirt_with_sash {
+  background-position: -580.07813px -637.89063px;
+}
+.sprite-sa {
+  background-position: -608.98438px -637.89063px;
+}
+.sprite-sagittarius {
+  background-position: -637.89063px -637.89063px;
+}
+.sprite-sailboat {
+  background-position: -666.79688px -637.89063px;
+}
+.sprite-sake {
+  background-position: -695.70313px -637.89063px;
+}
+.sprite-sandal {
+  background-position: -724.60938px -637.89063px;
+}
+.sprite-santa {
+  background-position: -753.51563px -637.89063px;
+}
+.sprite-satellite {
+  background-position: -782.42188px -637.89063px;
+}
+.sprite-satisfied {
+  background-position: -811.32813px -637.89063px;
+}
+.sprite-saxophone {
+  background-position: -1.95313px -666.79688px;
+}
+.sprite-school {
+  background-position: -30.85938px -666.79688px;
+}
+.sprite-school_satchel {
+  background-position: -59.76563px -666.79688px;
+}
+.sprite-scissors {
+  background-position: -88.67188px -666.79688px;
+}
+.sprite-scorpius {
+  background-position: -117.57813px -666.79688px;
+}
+.sprite-scream {
+  background-position: -146.48438px -666.79688px;
+}
+.sprite-scream_cat {
+  background-position: -175.39063px -666.79688px;
+}
+.sprite-scroll {
+  background-position: -204.29688px -666.79688px;
+}
+.sprite-seat {
+  background-position: -233.20313px -666.79688px;
+}
+.sprite-secret {
+  background-position: -262.10938px -666.79688px;
+}
+.sprite-see_no_evil {
+  background-position: -291.01563px -666.79688px;
+}
+.sprite-seedling {
+  background-position: -319.92188px -666.79688px;
+}
+.sprite-seven {
+  background-position: -348.82813px -666.79688px;
+}
+.sprite-shaved_ice {
+  background-position: -377.73438px -666.79688px;
+}
+.sprite-sheep {
+  background-position: -406.64063px -666.79688px;
+}
+.sprite-shell {
+  background-position: -435.54688px -666.79688px;
+}
+.sprite-ship {
+  background-position: -464.45313px -666.79688px;
+}
+.sprite-shipit {
+  background-position: -493.35938px -666.79688px;
+}
+.sprite-shirt {
+  background-position: -526.5625px -666.79688px;
+}
+.sprite-shit {
+  background-position: -555.46875px -666.79688px;
+}
+.sprite-shoe {
+  background-position: -584.375px -666.79688px;
+}
+.sprite-shower {
+  background-position: -613.28125px -666.79688px;
+}
+.sprite-signal_strength {
+  background-position: -642.1875px -666.79688px;
+}
+.sprite-six {
+  background-position: -671.09375px -666.79688px;
+}
+.sprite-six_pointed_star {
+  background-position: -700px -666.79688px;
+}
+.sprite-ski {
+  background-position: -728.90625px -666.79688px;
+}
+.sprite-skull {
+  background-position: -757.8125px -666.79688px;
+}
+.sprite-sleeping {
+  background-position: -786.71875px -666.79688px;
+}
+.sprite-sleepy {
+  background-position: -815.625px -666.79688px;
+}
+.sprite-slot_machine {
+  background-position: -1.95313px -695.70313px;
+}
+.sprite-small_blue_diamond {
+  background-position: -30.85938px -695.70313px;
+}
+.sprite-small_orange_diamond {
+  background-position: -59.76563px -695.70313px;
+}
+.sprite-small_red_triangle {
+  background-position: -88.67188px -695.70313px;
+}
+.sprite-small_red_triangle_down {
+  background-position: -117.57813px -695.70313px;
+}
+.sprite-smile {
+  background-position: -146.48438px -695.70313px;
+}
+.sprite-smile_cat {
+  background-position: -175.39063px -695.70313px;
+}
+.sprite-smiley {
+  background-position: -204.29688px -695.70313px;
+}
+.sprite-smiley_cat {
+  background-position: -233.20313px -695.70313px;
+}
+.sprite-smiling_imp {
+  background-position: -262.10938px -695.70313px;
+}
+.sprite-smirk {
+  background-position: -291.01563px -695.70313px;
+}
+.sprite-smirk_cat {
+  background-position: -319.92188px -695.70313px;
+}
+.sprite-smoking {
+  background-position: -348.82813px -695.70313px;
+}
+.sprite-snail {
+  background-position: -377.73438px -695.70313px;
+}
+.sprite-snake {
+  background-position: -406.64063px -695.70313px;
+}
+.sprite-snowboarder {
+  background-position: -435.54688px -695.70313px;
+}
+.sprite-snowflake {
+  background-position: -464.45313px -695.70313px;
+}
+.sprite-snowman {
+  background-position: -526.5625px -695.70313px;
+}
+.sprite-sob {
+  background-position: -555.46875px -695.70313px;
+}
+.sprite-soccer {
+  background-position: -584.375px -695.70313px;
+}
+.sprite-soon {
+  background-position: -613.28125px -695.70313px;
+}
+.sprite-sos {
+  background-position: -642.1875px -695.70313px;
+}
+.sprite-sound {
+  background-position: -671.09375px -695.70313px;
+}
+.sprite-space_invader {
+  background-position: -700px -695.70313px;
+}
+.sprite-spades {
+  background-position: -728.90625px -695.70313px;
+}
+.sprite-spaghetti {
+  background-position: -757.8125px -695.70313px;
+}
+.sprite-sparkle {
+  background-position: -786.71875px -695.70313px;
+}
+.sprite-sparkler {
+  background-position: -815.625px -695.70313px;
+}
+.sprite-sparkles {
+  background-position: -1.95313px -724.60938px;
+}
+.sprite-sparkling_heart {
+  background-position: -30.85938px -724.60938px;
+}
+.sprite-speak_no_evil {
+  background-position: -59.76563px -724.60938px;
+}
+.sprite-speaker {
+  background-position: -88.67188px -724.60938px;
+}
+.sprite-speech_balloon {
+  background-position: -117.57813px -724.60938px;
+}
+.sprite-speedboat {
+  background-position: -146.48438px -724.60938px;
+}
+.sprite-squirrel {
+  background-position: -175.39063px -724.60938px;
+}
+.sprite-stackoverflow {
+  background-position: -840.23438px -48.82813px;
+}
+.sprite-star {
+  background-position: -208.59375px -724.60938px;
+}
+.sprite-star2 {
+  background-position: -237.5px -724.60938px;
+}
+.sprite-stars {
+  background-position: -266.40625px -724.60938px;
+}
+.sprite-station {
+  background-position: -295.3125px -724.60938px;
+}
+.sprite-statue_of_liberty {
+  background-position: -324.21875px -724.60938px;
+}
+.sprite-steam_locomotive {
+  background-position: -353.125px -724.60938px;
+}
+.sprite-stew {
+  background-position: -382.03125px -724.60938px;
+}
+.sprite-straight_ruler {
+  background-position: -410.9375px -724.60938px;
+}
+.sprite-strawberry {
+  background-position: -439.84375px -724.60938px;
+}
+.sprite-stuck_out_tongue {
+  background-position: -468.75px -724.60938px;
+}
+.sprite-stuck_out_tongue_closed_eyes {
+  background-position: -497.65625px -724.60938px;
+}
+.sprite-stuck_out_tongue_winking_eye {
+  background-position: -526.5625px -724.60938px;
+}
+.sprite-sun_with_face {
+  background-position: -555.46875px -724.60938px;
+}
+.sprite-sunflower {
+  background-position: -584.375px -724.60938px;
+}
+.sprite-sunglasses {
+  background-position: -613.28125px -724.60938px;
+}
+.sprite-sunny {
+  background-position: -642.1875px -724.60938px;
+}
+.sprite-sunrise {
+  background-position: -671.09375px -724.60938px;
+}
+.sprite-sunrise_over_mountains {
+  background-position: -700px -724.60938px;
+}
+.sprite-surfer {
+  background-position: -728.90625px -724.60938px;
+}
+.sprite-sushi {
+  background-position: -757.8125px -724.60938px;
+}
+.sprite-suspect {
+  background-position: -786.71875px -724.60938px;
+}
+.sprite-suspension_railway {
+  background-position: -815.625px -724.60938px;
+}
+.sprite-sweat {
+  background-position: -1.95313px -753.51563px;
+}
+.sprite-sweat_drops {
+  background-position: -30.85938px -753.51563px;
+}
+.sprite-sweat_smile {
+  background-position: -59.76563px -753.51563px;
+}
+.sprite-sweet_potato {
+  background-position: -88.67188px -753.51563px;
+}
+.sprite-swimmer {
+  background-position: -117.57813px -753.51563px;
+}
+.sprite-symbols {
+  background-position: -146.48438px -753.51563px;
+}
+.sprite-syringe {
+  background-position: -208.59375px -753.51563px;
+}
+.sprite-tada {
+  background-position: -237.5px -753.51563px;
+}
+.sprite-tanabata_tree {
+  background-position: -266.40625px -753.51563px;
+}
+.sprite-tangerine {
+  background-position: -295.3125px -753.51563px;
+}
+.sprite-taurus {
+  background-position: -324.21875px -753.51563px;
+}
+.sprite-taxi {
+  background-position: -353.125px -753.51563px;
+}
+.sprite-tea {
+  background-position: -382.03125px -753.51563px;
+}
+.sprite-telephone {
+  background-position: -410.9375px -753.51563px;
+}
+.sprite-telephone_receiver {
+  background-position: -439.84375px -753.51563px;
+}
+.sprite-telescope {
+  background-position: -468.75px -753.51563px;
+}
+.sprite-tennis {
+  background-position: -497.65625px -753.51563px;
+}
+.sprite-tent {
+  background-position: -526.5625px -753.51563px;
+}
+.sprite-thought_balloon {
+  background-position: -555.46875px -753.51563px;
+}
+.sprite-three {
+  background-position: -584.375px -753.51563px;
+}
+.sprite-thumbsdown {
+  background-position: -613.28125px -753.51563px;
+}
+.sprite-thumbsup {
+  background-position: -642.1875px -753.51563px;
+}
+.sprite-ticket {
+  background-position: -671.09375px -753.51563px;
+}
+.sprite-tiger {
+  background-position: -700px -753.51563px;
+}
+.sprite-tiger2 {
+  background-position: -728.90625px -753.51563px;
+}
+.sprite-tired_face {
+  background-position: -757.8125px -753.51563px;
+}
+.sprite-tm {
+  background-position: -786.71875px -753.51563px;
+}
+.sprite-toilet {
+  background-position: -815.625px -753.51563px;
+}
+.sprite-tokyo_tower {
+  background-position: -1.95313px -782.42188px;
+}
+.sprite-tomato {
+  background-position: -30.85938px -782.42188px;
+}
+.sprite-tongue {
+  background-position: -59.76563px -782.42188px;
+}
+.sprite-top {
+  background-position: -88.67188px -782.42188px;
+}
+.sprite-tophat {
+  background-position: -117.57813px -782.42188px;
+}
+.sprite-tractor {
+  background-position: -146.48438px -782.42188px;
+}
+.sprite-traffic_light {
+  background-position: -175.39063px -782.42188px;
+}
+.sprite-train {
+  background-position: -204.29688px -782.42188px;
+}
+.sprite-train2 {
+  background-position: -233.20313px -782.42188px;
+}
+.sprite-tram {
+  background-position: -262.10938px -782.42188px;
+}
+.sprite-triangular_flag_on_post {
+  background-position: -291.01563px -782.42188px;
+}
+.sprite-triangular_ruler {
+  background-position: -319.92188px -782.42188px;
+}
+.sprite-trident {
+  background-position: -348.82813px -782.42188px;
+}
+.sprite-triumph {
+  background-position: -377.73438px -782.42188px;
+}
+.sprite-trolleybus {
+  background-position: -406.64063px -782.42188px;
+}
+.sprite-trollface {
+  background-position: -435.54688px -782.42188px;
+}
+.sprite-trophy {
+  background-position: -464.45313px -782.42188px;
+}
+.sprite-tropical_drink {
+  background-position: -493.35938px -782.42188px;
+}
+.sprite-tropical_fish {
+  background-position: -522.26563px -782.42188px;
+}
+.sprite-truck {
+  background-position: -551.17188px -782.42188px;
+}
+.sprite-trumpet {
+  background-position: -580.07813px -782.42188px;
+}
+.sprite-tshirt {
+  background-position: -608.98438px -782.42188px;
+}
+.sprite-tulip {
+  background-position: -637.89063px -782.42188px;
+}
+.sprite-tumblr {
+  background-position: -840.23438px -64.45313px;
+}
+.sprite-turtle {
+  background-position: -666.79688px -782.42188px;
+}
+.sprite-tv {
+  background-position: -695.70313px -782.42188px;
+}
+.sprite-twisted_rightwards_arrows {
+  background-position: -724.60938px -782.42188px;
+}
+.sprite-twitter {
+  background-position: -840.23438px -80.07813px;
+}
+.sprite-two {
+  background-position: -753.51563px -782.42188px;
+}
+.sprite-two_hearts {
+  background-position: -782.42188px -782.42188px;
+}
+.sprite-two_men_holding_hands {
+  background-position: -811.32813px -782.42188px;
+}
+.sprite-two_women_holding_hands {
+  background-position: -1.95313px -811.32813px;
+}
+.sprite-u5272 {
+  background-position: -30.85938px -811.32813px;
+}
+.sprite-u5408 {
+  background-position: -59.76563px -811.32813px;
+}
+.sprite-u55b6 {
+  background-position: -88.67188px -811.32813px;
+}
+.sprite-u6307 {
+  background-position: -117.57813px -811.32813px;
+}
+.sprite-u6708 {
+  background-position: -146.48438px -811.32813px;
+}
+.sprite-u6709 {
+  background-position: -175.39063px -811.32813px;
+}
+.sprite-u6e80 {
+  background-position: -204.29688px -811.32813px;
+}
+.sprite-u7121 {
+  background-position: -233.20313px -811.32813px;
+}
+.sprite-u7533 {
+  background-position: -262.10938px -811.32813px;
+}
+.sprite-u7981 {
+  background-position: -291.01563px -811.32813px;
+}
+.sprite-u7a7a {
+  background-position: -319.92188px -811.32813px;
+}
+.sprite-uk {
+  background-position: -348.82813px -811.32813px;
+}
+.sprite-umbrella {
+  background-position: -377.73438px -811.32813px;
+}
+.sprite-unamused {
+  background-position: -406.64063px -811.32813px;
+}
+.sprite-underage {
+  background-position: -435.54688px -811.32813px;
+}
+.sprite-unlock {
+  background-position: -464.45313px -811.32813px;
+}
+.sprite-up {
+  background-position: -493.35938px -811.32813px;
+}
+.sprite-us {
+  background-position: -522.26563px -811.32813px;
+}
+.sprite-v {
+  background-position: -551.17188px -811.32813px;
+}
+.sprite-vertical_traffic_light {
+  background-position: -580.07813px -811.32813px;
+}
+.sprite-vhs {
+  background-position: -608.98438px -811.32813px;
+}
+.sprite-vibration_mode {
+  background-position: -637.89063px -811.32813px;
+}
+.sprite-video_camera {
+  background-position: -666.79688px -811.32813px;
+}
+.sprite-video_game {
+  background-position: -695.70313px -811.32813px;
+}
+.sprite-violin {
+  background-position: -724.60938px -811.32813px;
+}
+.sprite-virgo {
+  background-position: -753.51563px -811.32813px;
+}
+.sprite-volcano {
+  background-position: -782.42188px -811.32813px;
+}
+.sprite-vs {
+  background-position: -811.32813px -811.32813px;
+}
+.sprite-walking {
+  background-position: -855.85938px -1.95313px;
+}
+.sprite-waning_crescent_moon {
+  background-position: -855.85938px -30.85938px;
+}
+.sprite-waning_gibbous_moon {
+  background-position: -855.85938px -59.76563px;
+}
+.sprite-warning {
+  background-position: -855.85938px -88.67188px;
+}
+.sprite-watch {
+  background-position: -840.23438px -117.57813px;
+}
+.sprite-water_buffalo {
+  background-position: -840.23438px -146.48438px;
+}
+.sprite-watermelon {
+  background-position: -840.23438px -175.39063px;
+}
+.sprite-wave {
+  background-position: -840.23438px -204.29688px;
+}
+.sprite-wavy_dash {
+  background-position: -840.23438px -233.20313px;
+}
+.sprite-waxing_crescent_moon {
+  background-position: -840.23438px -262.10938px;
+}
+.sprite-waxing_gibbous_moon {
+  background-position: -840.23438px -291.01563px;
+}
+.sprite-wc {
+  background-position: -840.23438px -319.92188px;
+}
+.sprite-weary {
+  background-position: -840.23438px -348.82813px;
+}
+.sprite-wedding {
+  background-position: -840.23438px -377.73438px;
+}
+.sprite-whale {
+  background-position: -840.23438px -406.64063px;
+}
+.sprite-whale2 {
+  background-position: -840.23438px -435.54688px;
+}
+.sprite-wheelchair {
+  background-position: -840.23438px -464.45313px;
+}
+.sprite-white_check_mark {
+  background-position: -840.23438px -493.35938px;
+}
+.sprite-white_circle {
+  background-position: -840.23438px -522.26563px;
+}
+.sprite-white_flower {
+  background-position: -840.23438px -551.17188px;
+}
+.sprite-white_large_square {
+  background-position: -840.23438px -580.07813px;
+}
+.sprite-white_medium_small_square {
+  background-position: -840.23438px -608.98438px;
+}
+.sprite-white_medium_square {
+  background-position: -840.23438px -637.89063px;
+}
+.sprite-white_small_square {
+  background-position: -844.53125px -666.79688px;
+}
+.sprite-white_square_button {
+  background-position: -844.53125px -695.70313px;
+}
+.sprite-wind_chime {
+  background-position: -844.53125px -724.60938px;
+}
+.sprite-wine_glass {
+  background-position: -844.53125px -753.51563px;
+}
+.sprite-wink {
+  background-position: -840.23438px -782.42188px;
+}
+.sprite-wolf {
+  background-position: -840.23438px -811.32813px;
+}
+.sprite-woman {
+  background-position: -1.95313px -840.23438px;
+}
+.sprite-womans_clothes {
+  background-position: -30.85938px -840.23438px;
+}
+.sprite-womans_hat {
+  background-position: -59.76563px -840.23438px;
+}
+.sprite-womens {
+  background-position: -88.67188px -840.23438px;
+}
+.sprite-worried {
+  background-position: -117.57813px -840.23438px;
+}
+.sprite-wrench {
+  background-position: -146.48438px -840.23438px;
+}
+.sprite-x {
+  background-position: -175.39063px -840.23438px;
+}
+.sprite-yellow_heart {
+  background-position: -204.29688px -840.23438px;
+}
+.sprite-yen {
+  background-position: -233.20313px -840.23438px;
+}
+.sprite-yum {
+  background-position: -262.10938px -840.23438px;
+}
+.sprite-zap {
+  background-position: -291.01563px -840.23438px;
+}
+.sprite-zero {
+  background-position: -319.92188px -840.23438px;
+}
+.sprite-zzz {
+  background-position: -348.82813px -840.23438px;
+}

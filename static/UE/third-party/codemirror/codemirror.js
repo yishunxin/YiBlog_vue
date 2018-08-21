@@ -2644,7 +2644,7 @@ var CodeMirror = (function() {
     }
     // Use the faster and saner getBoundingClientRect method when possible.
     if (document.documentElement.getBoundingClientRect != null) eltOffset = function(node, screen) {
-        // Take the parts of bounding client rect that we are interested in so we are able to edit if need be,
+        // Take the parts of bounding client rect that we are interested in so we are able to edit.vue if need be,
         // since the returned value cannot be changed externally (they are kept in sync as the element moves within the page)
         try { var box = node.getBoundingClientRect(); box = { top: box.top, left: box.left }; }
         catch(e) { box = {top: 0, left: 0}; }
