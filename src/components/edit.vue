@@ -33,11 +33,10 @@
     }
   }
 </script>
-<style scoped>
+<style>
   .edit-div {
-    min-height: 33px;
+    height: 70px;
     width: 100%;
-    height: 100%;
     overflow: auto;
     word-break: break-all;
     outline: none;
@@ -46,9 +45,9 @@
     text-align: left;
     vertical-align: bottom;
     display: block;
-    resize: vertical;
+    resize: none;
     padding: 5px 15px;
-    line-height: 1.5;
+    line-height: 1;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     color: #606266;
@@ -60,5 +59,10 @@
   }
   .edit-div:hover {
     border-color: #c0c4cc;
+  }
+  .edit-div img{
+    vertical-align: middle;
+    height: 16px;
+    width: 16px;
   }
 </style>

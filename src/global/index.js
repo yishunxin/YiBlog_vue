@@ -2,7 +2,6 @@
  * Created by yishunxin on 2018/7/4.
  */
 import config from './config'
-import axios from 'axios'
 export default {
   methods: {
     getUrl: function (path) {
@@ -20,7 +19,7 @@ export default {
       var that = this
       var url = this.getUrl(path)
       return new Promise(function (resolve, reject) {
-        axios.get(url + "?token=" + localStorage.getItem('user_token'), {
+        that.$http.get(url + "?token=" + localStorage.getItem('user_token'), {
           params: params
         }).then(function (response) {
           var res = response.data
@@ -52,11 +51,15 @@ export default {
         })
       })
     },
-    httpPost: function (path, body, option = {emulateJSON: true}) {
+    httpPost: function (path, body,options) {
+      console.log(options)
+      if (options===undefined){
+        options = {emulateJSON: true}
+      }
       var url = this.getUrl(path)
       var that = this
       return new Promise(function (resolve, reject) {
-        axios.post(url + "?token=" + localStorage.getItem('user_token'), body, option).then(function (response) {
+        that.$http.post(url + "?token=" + localStorage.getItem('user_token'), body, options).then(function (response) {
           var res = response.data
           if (res.code == 0) {
             resolve(response.data)

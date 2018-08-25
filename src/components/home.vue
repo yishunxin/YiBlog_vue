@@ -5,7 +5,12 @@
     </div>
 
     <div class="icon clearfix">
-      <el-button type="success" @click="showEmoji = !showEmoji"></el-button>
+      <div class="essay_panel">
+        <span @click="showEmoji = !showEmoji" circle class="iconfont" style="padding: 0;font-size: 20px">&#xe60c;
+        </span>
+        <el-button type="primary" size="mini" @click="saveEssay">发表</el-button>
+      </div>
+
       <transition name="fade" mode="">
         <div class="emoji-box" v-if="showEmoji">
           <el-button
@@ -24,17 +29,16 @@
     </div>
     <div>
       <div v-for="essay in essays">
-        <el-card :body-style="{ padding: '0px' ,position:'relative'}" shadow="hover">
-          <el-button type="text" class="el-icon-close delete_span" @click.stop="deleteAlbum(essay.eid)"></el-button>
-          <img :src="[album.cover?album.cover:'/static/img/bg.jpg']" class="cover">
-          <div style="padding: 14px;">
-            <span>{{album.name}}</span>
-            <div class="album_bottom clearfix">
-              <time class="time">{{ album.create_time }}</time>
-              <el-button type="text" class="button">操作按钮</el-button>
-            </div>
+        <div class="essay_container">
+          <div class="essay_header">
+            <span>{{essay.create_time}}</span>
+            <el-button type="text" class="el-icon-close delete_span" @click.stop="deleteEssay(essay.eid)"></el-button>
           </div>
-        </el-card>
+          <div class="essay_body" v-html="essay.content"></div>
+          <div>
+            <img :src="photo" v-for="photo in essay.photo_list">
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -43,16 +47,18 @@
   import vueEmoji from './emoji.vue'
   import vueEdit from './edit.vue'
   import ElInput from "../../node_modules/element-ui/packages/input/src/input";
+  import ElButton from "../../node_modules/element-ui/packages/button/src/button";
   export default{
     data: function () {
       return {
         essay: '',
         essays: [],
         showEmoji: false,
-        data: []
+        data: [],
       }
     },
     components: {
+      ElButton,
       ElInput,
       vueEmoji,
       vueEdit
@@ -78,22 +84,65 @@
         })
       },
       deleteEssay: function (eid) {
-        that.httpGet('/essay/delete').then(function () {
+        var that = this
+        that.httpGet('/essay/delete', {eid: eid}).then(function () {
           that.getEssays()
         })
       },
-      saveEssay: function (essay) {
-        that.httpPost('/essay/save', essay).then(function () {
+      saveEssay: function () {
+        var that = this
+        that.httpPost('/essay/save', {content: that.essay}).then(function () {
           that.getEssays()
         })
       }
     }
   }
 </script>
-<style scoped>
+<style>
+  .essay_container {
+    background: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+  }
+
+  .essay_header {
+    color: gray;
+    position: relative;
+    font-size: 14px;
+  }
+
+  .essay_body {
+    margin-top: 10px;
+    text-indent: 2em;
+    height: auto;
+  }
+
+  .essay_body img {
+    vertical-align: middle;
+    height: 16px;
+    width: 16px;
+  }
+
+  .essay_container:hover .delete_span {
+    display: block;
+  }
+
+  .delete_span {
+    display: none;
+    padding: 0;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+  }
+
+  .essay_panel {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .icon {
     position: relative;
-    margin-top: 20px;
+    margin-top: 5px;
   }
 
   .icon .emoji-box {
@@ -169,5 +218,4 @@
   .list-move {
     transition: all 0.5s;
   }
-
 </style>

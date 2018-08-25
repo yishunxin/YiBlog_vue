@@ -5,6 +5,11 @@ import App from './App'
 import router from './router'
 import global from './global'
 import ElementUI from 'element-ui'
+import VueResource from 'vue-resource'
+import 'vue-event-calendar/dist/style.css' //1.1.10之后的版本，css被放在了单独的文件中，方便替换
+import vueEventCalendar from 'vue-event-calendar'
+Vue.use(vueEventCalendar)
+Vue.use(VueResource)
 import 'element-ui/lib/theme-chalk/index.css'
 window.$ = require('jquery')
 import '../static/UE/ueditor.config.js'
