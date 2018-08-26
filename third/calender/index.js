@@ -289,6 +289,22 @@ module.exports = function normalizeComponent (
     dayEventsTitle: 'Alla händelser',
     notHaveEvents: 'Inga händelser'
   },
+  no: {
+    dayNames: ["Søn", "Man", "Tir", "Ons", "Tor", "Fre", "Lør"],
+    monthNames: ["Januar", "Februar", "Mars", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Desember"],
+    format: 'MM/yyyy',
+    fullFormat: 'dd/MM/yyyy',
+    dayEventsTitle: 'Alle hendelser',
+    notHaveEvents: 'Ingen hendelser'
+  },
+  'no-nn': {
+    dayNames: ["Søn", "Mån", "Tys", "Ons", "Tor", "Fre", "Lau"],
+    monthNames: ["Januar", "Februar", "Mars", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Desember"],
+    format: 'MM/yyyy',
+    fullFormat: 'dd/MM/yyyy',
+    dayEventsTitle: 'Alle hendinger',
+    notHaveEvents: 'Ingen hendinger'
+  },
   de: {
     dayNames: ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"],
     monthNames: ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"],
@@ -304,6 +320,30 @@ module.exports = function normalizeComponent (
     fullFormat: 'dd/MM/yyyy',
     dayEventsTitle: 'Tất cả sự kiện',
     notHaveEvents: 'Không có sự kiện nào'
+  },
+  ua: {
+    dayNames: ["Нд", "Пн", "Вт", "Ср", "Чт", "Пт", "Сб"],
+    monthNames: ["Січень", "Лютий", "Березень", "Квітень", "Травень", "Червень", "Липень", "Серпень", "Вересень", "Жовтень", "Листопад", "Грудень"],
+    format: 'MM.yyyy',
+    fullFormat: 'dd.MM.yyyy',
+    dayEventsTitle: 'Усі події',
+    notHaveEvents: 'Події відсутні'
+  },
+  th: {
+    dayNames: ["อาทิตย์", "จันทร์", "อังคาร", "พุธ", "พฤหัสบดี", "ศุกร์", "เสาร์"],
+    monthNames: ["มกราคม", "กุมภาพันธ์", "มีนาคม", "เมษายน", "พฤษภาคม", "มิถุนายน", "กรกฎาคม", "สิงหาคม", "กันยายน", "ตุลาคม", "พฤศจิกายน", "ธันวาคม"],
+    format: 'MM/yyyy',
+    fullFormat: 'dd/MM/yyyy',
+    dayEventsTitle: 'เหตุการณ์',
+    notHaveEvents: 'ไม่มีเหตุการณใดๆ'
+  },
+  hu: {
+    dayNames: ["Hé", "Ke", "Sze", "Сs", "Pé", "Szo", "Va"],
+    monthNames: ["Január", "Február", "Március", "Április", "Május", "Június", "Július", "Augusztus", "Szeptember", "Október", "November", "December"],
+    format: 'yyyy MM',
+    fullFormat: 'yyyy.MM.dd',
+    dayEventsTitle: 'Események',
+    notHaveEvents: 'Nincs esemény'
   }
 });
 
@@ -476,9 +516,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     },
     events: function events() {
       return this.dayEvents.events;
-    },
-    bgColor: function bgColor() {
-      return { backgroundColor: this.color };
     }
   },
   methods: {
@@ -533,103 +570,112 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
 
 
 
 
 var inBrowser = typeof window !== 'undefined';
 /* harmony default export */ __webpack_exports__["default"] = ({
-  name: 'cal-panel',
-  data: function data() {
-    return {
-      i18n: __WEBPACK_IMPORTED_MODULE_0__i18n_js__["a" /* default */]
-    };
-  },
-
-  props: {
-    events: {
-      type: Array,
-      required: true
-    },
-    calendar: {
-      type: Object,
-      required: true
-    },
-    selectedDay: {
-      type: String,
-      required: false
-    }
-  },
-  computed: {
-    dayList: function dayList() {
-      var firstDay = new Date(this.calendar.params.curYear, this.calendar.params.curMonth, 1);
-      var dayOfWeek = firstDay.getDay();
-      // 根据当前日期计算偏移量 // Calculate the offset based on the current date
-      if (this.calendar.options.weekStartOn > dayOfWeek) {
-        dayOfWeek = dayOfWeek - this.calendar.options.weekStartOn + 7;
-      } else {
-        dayOfWeek = dayOfWeek - this.calendar.options.weekStartOn;
-      }
-
-      var startDate = new Date(firstDay);
-      startDate.setDate(firstDay.getDate() - dayOfWeek);
-
-      var item = void 0,
-          status = void 0,
-          tempArr = [],
-          tempItem = void 0;
-      for (var i = 0; i < 42; i++) {
-        item = new Date(startDate);
-        item.setDate(startDate.getDate() + i);
-
-        if (this.calendar.params.curMonth === item.getMonth()) {
-          status = 1;
-        } else {
-          status = 0;
-        }
-        tempItem = {
-          date: item.getFullYear() + '/' + (item.getMonth() + 1) + '/' + item.getDate(),
-          status: status,
-          customClass: []
+    name: 'cal-panel',
+    data: function data() {
+        return {
+            i18n: __WEBPACK_IMPORTED_MODULE_0__i18n_js__["a" /* default */],
+            clickDate: null
         };
-        this.events.forEach(function (event) {
-          if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__tools_js__["a" /* isEqualDateStr */])(event.date, tempItem.date)) {
-            tempItem.title = event.title;
-            tempItem.desc = event.desc || '';
-            if (event.customClass) tempItem.customClass.push(event.customClass);
-          }
-        });
-        tempArr.push(tempItem);
-      }
-      return tempArr;
     },
-    today: function today() {
-      var dateObj = new Date();
-      return dateObj.getFullYear() + '/' + (dateObj.getMonth() + 1) + '/' + dateObj.getDate();
+
+    props: {
+        events: {
+            type: Array,
+            required: true
+        },
+        calendar: {
+            type: Object,
+            required: true
+        },
+        selectedDay: {
+            type: String,
+            required: false
+        }
     },
-    curYearMonth: function curYearMonth() {
-      var tempDate = Date.parse(new Date(this.calendar.params.curYear + '/' + (this.calendar.params.curMonth + 1) + '/01'));
-      return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__tools_js__["b" /* dateTimeFormatter */])(tempDate, this.i18n[this.calendar.options.locale].format);
+    computed: {
+        dayList: function dayList() {
+            var firstDay = new Date(this.calendar.params.curYear, this.calendar.params.curMonth, 1);
+            var dayOfWeek = firstDay.getDay();
+            // 根据当前日期计算偏移量 // Calculate the offset based on the current date
+            if (this.calendar.options.weekStartOn > dayOfWeek) {
+                dayOfWeek = dayOfWeek - this.calendar.options.weekStartOn + 7;
+            } else {
+                dayOfWeek = dayOfWeek - this.calendar.options.weekStartOn;
+            }
+
+            var startDate = new Date(firstDay);
+            startDate.setDate(firstDay.getDate() - dayOfWeek);
+
+            var item = void 0,
+                status = void 0,
+                tempArr = [],
+                tempItem = void 0;
+            for (var i = 0; i < 42; i++) {
+                item = new Date(startDate);
+                item.setDate(startDate.getDate() + i);
+
+                if (this.calendar.params.curMonth === item.getMonth()) {
+                    status = 1;
+                } else {
+                    status = 0;
+                }
+                tempItem = {
+                    date: item.getFullYear() + '/' + (item.getMonth() + 1) + '/' + item.getDate(),
+                    status: status,
+                    customClass: [],
+                    has_event: false
+                };
+                this.events.forEach(function (event) {
+                    if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__tools_js__["a" /* isEqualDateStr */])(event.date, tempItem.date)) {
+                        tempItem.title = event.title;
+                        tempItem.desc = event.desc || '';
+                        tempItem.has_event = true;
+                        if (event.customClass) tempItem.customClass.push(event.customClass);
+                    }
+                });
+                tempArr.push(tempItem);
+            }
+            return tempArr;
+        },
+        today: function today() {
+            var dateObj = new Date();
+            return dateObj.getFullYear() + '/' + (dateObj.getMonth() + 1) + '/' + dateObj.getDate();
+        },
+        curYearMonth: function curYearMonth() {
+            var tempDate = Date.parse(new Date(this.calendar.params.curYear + '/' + (this.calendar.params.curMonth + 1) + '/01'));
+            return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__tools_js__["b" /* dateTimeFormatter */])(tempDate, this.i18n[this.calendar.options.locale].format);
+        },
+        customColor: function customColor() {
+            return this.calendar.options.color;
+        }
     },
-    customColor: function customColor() {
-      return this.calendar.options.color;
+    methods: {
+        nextMonth: function nextMonth() {
+            this.$EventCalendar.nextMonth();
+            this.$emit('month-changed', this.curYearMonth);
+        },
+        preMonth: function preMonth() {
+            this.$EventCalendar.preMonth();
+            this.$emit('month-changed', this.curYearMonth);
+        },
+        handleChangeCurday: function handleChangeCurday(date) {
+            this.clickDate = date.date;
+            if (date.status) {
+                this.$emit('cur-day-changed', date.date);
+            }
+        }
     }
-  },
-  methods: {
-    nextMonth: function nextMonth() {
-      this.$EventCalendar.nextMonth();
-      this.$emit('month-changed', this.curYearMonth);
-    },
-    preMonth: function preMonth() {
-      this.$EventCalendar.preMonth();
-      this.$emit('month-changed', this.curYearMonth);
-    },
-    handleChangeCurday: function handleChangeCurday(date) {
-      if (date.status) {
-        this.$emit('cur-day-changed', date.date);
-      }
-    }
-  }
 });
 
 /***/ }),
@@ -974,13 +1020,14 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
 
 module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;
   return _c('div', {
-    staticClass: "events-wrapper",
+    staticClass: "events-wrapper"
   }, [_c('h2', {
     staticClass: "date"
   }, [_vm._v("\n    " + _vm._s(_vm.dayEventsTitle) + "\n  ")]), _vm._v(" "), _c('div', {
     staticClass: "cal-events"
   }, [_vm._t("default", _vm._l((_vm.events), function(event, index) {
     return _c('div', {
+      key: index,
       staticClass: "event-item"
     }, [_c('cal-event-item', {
       attrs: {
@@ -1054,7 +1101,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
     return _c('span', {
       key: dayIndex,
       staticClass: "item"
-    }, [_vm._v("\n        " + _vm._s(_vm.i18n[_vm.calendar.options.locale].dayNames[(dayIndex + _vm.calendar.options.weekStartOn) % 7]) + "\n      ")])
+    }, [_vm._v("\n      " + _vm._s(_vm.i18n[_vm.calendar.options.locale].dayNames[(dayIndex + _vm.calendar.options.weekStartOn) % 7]) + "\n    ")])
   })), _vm._v(" "), _c('div', {
     staticClass: "dates"
   }, _vm._l((_vm.dayList), function(date) {
@@ -1063,24 +1110,24 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
       staticClass: "item",
       class: [( _obj = {
         today: date.status ? (_vm.today == date.date) : false,
-        event: date.status ? (date.title != undefined) : false
+        event: date.status ? date.has_event : false
       }, _obj[_vm.calendar.options.className] = (date.date == _vm.selectedDay), _obj ) ].concat( date.customClass)
     }, [_c('p', {
       staticClass: "date-num",
       style: ({
-        color: date.title != undefined ? ((date.date == _vm.selectedDay) ? '#fff' : _vm.customColor) : 'inherit'
+        color: date.date == _vm.clickDate ? (date.date == _vm.selectedDay ? '#fff' : _vm.customColor) : 'inherit'
       }),
       on: {
         "click": function($event) {
           _vm.handleChangeCurday(date)
         }
       }
-    }, [_vm._v("\n          " + _vm._s(date.status ? date.date.split('/')[2] : ' '))]), _vm._v(" "), (date.status ? (_vm.today == date.date) : false) ? _c('span', {
+    }, [_vm._v("\n                    " + _vm._s(date.status ? date.date.split('/')[2] : ' '))]), _vm._v(" "), (date.status ? (_vm.today == date.date) : false) ? _c('span', {
       staticClass: "is-today",
       style: ({
         backgroundColor: _vm.customColor
       })
-    }) : _vm._e(), _vm._v(" "), (date.status ? (date.title != undefined) : false) ? _c('span', {
+    }) : _vm._e(), _vm._v(" "), (date.status ? date.has_event : false) ? _c('span', {
       staticClass: "is-event",
       style: ({
         borderColor: _vm.customColor,
