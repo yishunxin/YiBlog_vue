@@ -38,7 +38,7 @@
                 <div style="display:  flex;justify-content:  space-between;">
                   <div style="display:flex;width:90%;"><span
                     style="margin-right: 8px;color:gray">{{note.time}}</span>
-                    <el-tooltip visibleArrow=false effect="light" placement="top">
+                    <el-tooltip visibleArrow=false        effect="light" placement="top">
                       <div slot="content">{{note.content}}</div>
                       <span :class="[{note_delete:note.status_bo},'note_content']">{{note.content}}</span>
                     </el-tooltip>
@@ -46,6 +46,19 @@
                   <el-checkbox v-model="note.status_bo"
                                @change="changeNoteStatus(note.nid,note.status_bo)"></el-checkbox>
                 </div>
+              </div>
+              <div class="add_note">
+                <el-time-picker
+                  size="mini"
+                  is-range
+                  v-model="value4"
+                  range-separator="至"
+                  start-placeholder="开始时间"
+                  end-placeholder="结束时间"
+                  placeholder="选择时间范围">
+                </el-time-picker>
+                <el-input></el-input>
+                <el-button>add</el-button>
               </div>
             </div>
           </template>
@@ -57,10 +70,17 @@
 </template>
 
 <script>
+  import ElInput from "../../node_modules/element-ui/packages/input/src/input";
+  import ElButton from "../../node_modules/element-ui/packages/button/src/button";
   export default {
+    components: {
+      ElButton,
+      ElInput
+    },
     name: 'HelloWorld',
     data() {
       return {
+        value4: [new Date(), new Date()],
         carousel_photos: ["/static/img/bg.jpg", "/static/img/banner.jpg"],
         msg: 'Welcome to Your Vue.js App',
         notes: [
@@ -131,7 +151,7 @@
         })
       },
       monthChanged: function (date) {
-        that.getNotes(date.substr(0,4),date.substr(5,2))
+        that.getNotes(date.substr(0, 4), date.substr(5, 2))
       },
       goWrite: function () {
         this.$router.push('/blogwrite')
@@ -147,7 +167,15 @@
   }
 </script>
 
-<style scoped>
+<style>
+  .el-date-editor--daterange.el-input, .el-date-editor--daterange.el-input__inner, .el-date-editor--timerange.el-input, .el-date-editor--timerange.el-input__inner {
+    width: 100%;
+  }
+
+  .el-date-editor .el-range-separator {
+    width: auto;
+  }
+
   .note_content {
     white-space: nowrap;
     text-overflow: ellipsis;
